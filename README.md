@@ -1,4 +1,4 @@
-# Computer Science Books
+# Free Computer Programming Resources
 This repo contains a collection of books of interest relating to programming. 
 Here is the table of content:
 - General

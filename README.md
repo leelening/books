@@ -3,7 +3,14 @@ This repo contains a collection of books of interest relating to programming.
 Here is the table of content:
 - General
   - The Art of Computer Programming (计算机程序设计艺术)
-    - [FINITE SEMIFIELDS AND PROJECTIVE PLANES]()
+    - [Finite Semifields and Projective Planes]()
+    - [The Art of Computer Programming (Volume 1 Fundamental Algorithms)]()
+    - [The Art of Computer Programming (Volume 2 Seminumerical Algorithms)]()
+    - [The Art of Computer Programming (Volume 3 Sorting and Searching)]()
+    - [The Art of Computer Programming (Volume 4A Combinatorial Algorithms Part 1)]()
+    - [The Art of Computer Programming, Fascicle 1: MMIX]()
+    - [The Art of Computer Programming, Pre-Fascicle 2A]()
+    - [The MMIX Supplement: Supplement to The Art of Computer Programming Volumens 1, 2, 3]()
     - [计算机程序设计艺术（第1卷）基本算法（第3版） 2022]()
     - [计算机程序设计艺术（第1卷）基本算法（第3版） 英文原版]()
     - [计算机程序设计艺术（第1卷）基本算法（第三版）2007.6重印版]()
@@ -30,15 +37,15 @@ Here is the table of content:
 - Python
   - [Learning Python](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Learning%20Python.pdf) | Rating:
   - [Thinking Python (How to Think Like a Computer Scientist)](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Think%20Python%20(How%20to%20Think%20Like%20a%20Computer%20Scientist).pdf) | 
-  - [pytest](https://github.com/leelening/Computer-Science-Books/blob/main/pytest.pdf) | 
+  - [pytest](https://github.com/leelening/Computer-Science-Books/blob/main/Python/pytest.pdf) | 
 - Docker
   - [Docker Deep Dive](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/Docker%20Deep%20Dive.pdf) | Rating:
   - [The Docker Book](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/The%20Docker%20Book.pdf) | Rating:
 - Interview Problems
   - [编程之美](https://github.com/leelening/Computer-Science-Books/blob/main/Interview%20Problems/%E7%BC%96%E7%A8%8B%E4%B9%8B%E7%BE%8E.pdf) | Rating:
 - Mongo
-  - [MongoDB (the Definitive Guide)](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating:
+  - [MongoDB: the Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating:
 - Elasticsearch
-  - -[Elasticsearch (The Definitive Guide)](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating:
+  - -[Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating:
 # License
 Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).

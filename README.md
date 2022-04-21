@@ -52,5 +52,8 @@ Here is the table of content:
   - [Statistical reinforcement learning Modern machine learning approaches](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Statistical%20reinforcement%20learning%20Modern%20machine%20learning%20approaches.pdf)
   - [Artificial intelligence: a modern approach](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Artificial%20intelligence:%20a%20modern%20approache.pdf)
   - [Reinforcement Learning: A Introduction](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Reinforcement%20Learning:%20A%20Introduction.pdf)
+  - [Deep Learning](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Deep%20Leraning.pdf)
+- C++
+  - [C++ Premier](https://github.com/leelening/Computer-Science-Books/blob/main/C++/C++%20Primer.pdf)
 # License
 Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).

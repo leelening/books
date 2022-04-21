@@ -1,14 +1,14 @@
 # Free Computer Programming Resources
 <div align="center" markdown="1">
 
-[![GitHub repo forks](https://img.shields.io/github/forks/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/leelening/Computer-Science-Books/network)&#160;
-[![GitHub repo stars](https://img.shields.io/github/stars/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/leelening/Computer-Science-Books/stargazers)&#160;
+[![GitHub repo forks](https://img.shields.io/github/forks/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/leelening/Computer-Science-Books/network)
+[![GitHub repo stars](https://img.shields.io/github/stars/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/leelening/Computer-Science-Books/stargazers)
 [![GitHub repo contributors](https://img.shields.io/github/contributors-anon/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Contributors)](https://github.com/leelening/Computer-Science-Books/graphs/contributors)    
-[![GitHub org sponsors](https://img.shields.io/github/sponsors/leelening?style=flat&logo=github&logoColor=whitesmoke&label=Sponsors)](https://github.com/leelening)&#160;
-[![GitHub repo watchers](https://img.shields.io/github/watchers/EbookFoundation/free-programming-books?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/leelening/Computer-Science-Books/watchers)&#160;
+[![GitHub org sponsors](https://img.shields.io/github/sponsors/leelening?style=flat&logo=github&logoColor=whitesmoke&label=Sponsors)](https://github.com/leelening)
+[![GitHub repo watchers](https://img.shields.io/github/watchers/EbookFoundation/free-programming-books?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/leelening/Computer-Science-Books/watchers)
 [![GitHub repo size](https://img.shields.io/github/repo-size/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/leelening/Computer-Science-Books/archive/refs/heads/main.zip)
-
 </div>
+
 This repo contains a collection of books of interest relating to programming. 
 Here is the table of content:
 - General

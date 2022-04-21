@@ -2,7 +2,7 @@
 This repo contains a collection of books of interest relating to programming. 
 Here is the table of content:
 - General
-  - The Art of Computer Programming (计算机程序设计艺术)
+  - The Art of Computer Programming (计算机程序设计艺术) | Rating: 4.8/5.0
     - [Finite Semifields and Projective Planes](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/Finite%20Semifields%20and%20Projective%20Planes.pdf)
     - [The Art of Computer Programming (Volume 1 Fundamental Algorithms)](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%20(Volume%201%20Fundamental%20Algorithms).pdf)
     - [The Art of Computer Programming (Volume 2 Seminumerical Algorithms)](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%20(Volume%202%20Seminumerical%20Algorithms).pdf)
@@ -28,24 +28,24 @@ Here is the table of content:
     - [计算机程序设计艺术（第4卷）第6册A Satisfiability](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC6%E5%86%8CA%20Satisfiability.pdf)
   - [Clean Code (A Handbook of Angile Software Craftsmanship)](https://github.com/leelening/Computer-Science-Books/blob/main/General/Clean%20Code%20(A%20Handbook%20of%20Agile%20Software%20Craftsmanship).pdf)
 - Kubernetes
-  - [Kubernetes: Up and Running](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/Kubernetes:%20Up%20and%20Running.pdf)
-  - [The Kubernetes Book](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/The%20Kubernetes%20Book.pdf)
+  - [Kubernetes: Up and Running](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/Kubernetes:%20Up%20and%20Running.pdf) | Rating: 4.6/5.0
+  - [The Kubernetes Book](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/The%20Kubernetes%20Book.pdf) | Rating: 4.5/5.0
 - Yaml
   - [YAML Ain't Markup Language](https://github.com/leelening/Computer-Science-Books/blob/main/YAML/YAML%20Ain%E2%80%99t%20Markup%20Language%20(YAML%E2%84%A2)%20revision%201.2.2.html)
 - Git
   - [Pro Git](https://github.com/leelening/Computer-Science-Books/blob/main/Git/progit.pdf) | Rating: 4.5/5.0
 - Python
-  - [Learning Python](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Learning%20Python.pdf) | Rating:
-  - [Thinking Python (How to Think Like a Computer Scientist)](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Think%20Python%20(How%20to%20Think%20Like%20a%20Computer%20Scientist).pdf) | 
+  - [Learning Python](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Learning%20Python.pdf) | Rating: 4.5/5.0
+  - [Thinking Python (How to Think Like a Computer Scientist)](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Think%20Python%20(How%20to%20Think%20Like%20a%20Computer%20Scientist).pdf) | Rating: 4.6/5.0
   - [pytest](https://github.com/leelening/Computer-Science-Books/blob/main/Python/pytest.pdf) | 
 - Docker
-  - [Docker Deep Dive](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/Docker%20Deep%20Dive.pdf) | Rating:
-  - [The Docker Book](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/The%20Docker%20Book.pdf) | Rating:
+  - [Docker Deep Dive: Zero to Docker in a single book](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/Docker%20Deep%20Dive.pdf) | Rating: 4.6/5.0
+  - [The Docker Book: Containerization is the new visualization](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/The%20Docker%20Book.pdf) | Rating: 4.4/5.0
 - Interview Problems
   - [编程之美](https://github.com/leelening/Computer-Science-Books/blob/main/Interview%20Problems/%E7%BC%96%E7%A8%8B%E4%B9%8B%E7%BE%8E.pdf) | Rating:
 - Mongo
-  - [MongoDB: the Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating:
+  - [MongoDB: the Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating: 4.6/5.0
 - Elasticsearch
-  - [Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating:
+  - [Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating: 4.2/5.0
 # License
 Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).

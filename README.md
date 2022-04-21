@@ -46,6 +46,6 @@ Here is the table of content:
 - Mongo
   - [MongoDB: the Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating:
 - Elasticsearch
-  - -[Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating:
+  - [Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating:
 # License
 Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).

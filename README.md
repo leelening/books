@@ -47,5 +47,7 @@ Here is the table of content:
   - [MongoDB: the Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating: 4.6/5.0
 - Elasticsearch
   - [Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating: 4.2/5.0
+- Machine Learning
+  - [Convex Optimization](https://github.com/)
 # License
 Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).

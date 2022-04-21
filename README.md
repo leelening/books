@@ -55,5 +55,8 @@ Here is the table of content:
   - [Deep Learning](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Deep%20Leraning.pdf)
 - C++
   - [C++ Premier](https://github.com/leelening/Computer-Science-Books/blob/main/C++/C++%20Primer.pdf)
+  - [Dynamic Programming and Optimal Control]
+    - [Dynamic Programming and Optimal Control - Volume 1](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Dynamic%20Programming%20and%20Optimal%20Control%20-%20Volume%201.pdf)
+  - [Abstract Dynamic Programming](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Abstract%20Dynamic%20Programming.pdf)
 # License
 Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).

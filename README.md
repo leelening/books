@@ -49,7 +49,7 @@ Here is the table of content:
   - [Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating: 4.2/5.0
 - Machine Learning
   - [Convex Optimization](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Convex%20Optimization.pdf)
-  - [Statistical reinforcement learning Modern machine learning approaches](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Statistical%20reinforcement%20learning%20Modern%20machine%20learning%20approaches.pdf)
+  - [Statistical reinforcement learning: Modern machine learning approaches](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Statistical%20reinforcement%20learning%20Modern%20machine%20learning%20approaches.pdf)
   - [Artificial intelligence: a modern approach](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Artificial%20intelligence:%20a%20modern%20approache.pdf)
   - [Reinforcement Learning: A Introduction](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Reinforcement%20Learning:%20A%20Introduction.pdf)
   - [Deep Learning](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Deep%20Leraning.pdf)

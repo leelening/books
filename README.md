@@ -39,6 +39,7 @@ Here is the table of content:
   - [Clean Code (A Handbook of Angile Software Craftsmanship)](https://github.com/leelening/Computer-Science-Books/blob/main/General/Clean%20Code%20(A%20Handbook%20of%20Agile%20Software%20Craftsmanship).pdf)
   - [The Pragmatic Programmer: Your Journey to Mastery](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Pragmatic%20Programmer%20Your%20Journey%20to%20Mastery.pdf)
   - [Code Complete: A Practical Handbook of Software Construction](https://github.com/leelening/Computer-Science-Books/blob/main/General/Code%20Complete%20A%20Practical%20Handbook%20of%20Software%20Construction.pdf)
+  - [Soft Skills: The Software Developer's Life Manual](https://github.com/leelening/Computer-Science-Books/blob/main/General/Soft%20Skills%20The%20Software%20Developer's%20Life%20Manual.pdf)
 - Kubernetes
   - [Kubernetes: Up and Running](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/Kubernetes:%20Up%20and%20Running.pdf) | Rating: 4.6/5.0
   - [The Kubernetes Book](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/The%20Kubernetes%20Book.pdf) | Rating: 4.5/5.0

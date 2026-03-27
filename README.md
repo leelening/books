@@ -1,77 +1,33 @@
-# Free Computer Programming Resources
-<div align="center" markdown="1">
+# Computer Science Books
 
-[![GitHub repo forks](https://img.shields.io/github/forks/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/leelening/Computer-Science-Books/network)
-[![GitHub repo stars](https://img.shields.io/github/stars/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/leelening/Computer-Science-Books/stargazers)
-[![GitHub repo contributors](https://img.shields.io/github/contributors-anon/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Contributors)](https://github.com/leelening/Computer-Science-Books/graphs/contributors)    
-[![GitHub org sponsors](https://img.shields.io/github/sponsors/leelening?style=flat&logo=github&logoColor=whitesmoke&label=Sponsors)](https://github.com/leelening)
-[![GitHub repo watchers](https://img.shields.io/github/watchers/EbookFoundation/free-programming-books?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/leelening/Computer-Science-Books/watchers)
-[![GitHub repo size](https://img.shields.io/github/repo-size/leelening/Computer-Science-Books?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/leelening/Computer-Science-Books/archive/refs/heads/main.zip)
-</div>
+[![Documentation](https://img.shields.io/badge/Books-CS%20Resources-blue)](https://github.com/leelening/Computer-Science-Books)
 
-This repo contains a collection of books of interest relating to programming. 
-Here is the table of content:
-- General
-  - The Art of Computer Programming (计算机程序设计艺术) | Rating: 4.8/5.0
-    - [Finite Semifields and Projective Planes](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/Finite%20Semifields%20and%20Projective%20Planes.pdf)
-    - [The Art of Computer Programming (Volume 1 Fundamental Algorithms)](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%20(Volume%201%20Fundamental%20Algorithms).pdf)
-    - [The Art of Computer Programming (Volume 2 Seminumerical Algorithms)](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%20(Volume%202%20Seminumerical%20Algorithms).pdf)
-    - [The Art of Computer Programming (Volume 3 Sorting and Searching)](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%20(Volume%203%20Sorting%20and%20Searching).pdf)
-    - [The Art of Computer Programming (Volume 4A Combinatorial Algorithms Part 1)](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%20(Volume%204A%20Combinatorial%20Algorithms%20Part%201).pdf)
-    - [The Art of Computer Programming, Fascicle 1: MMIX](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%2C%20Fascicle%201:%20MMIX.pdf)
-    - [The Art of Computer Programming, Pre-Fascicle 2A](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20Art%20of%20Computer%20Programming%2C%20Pre-Fascicle%202A.pdf)
-    - [The MMIX Supplement: Supplement to The Art of Computer Programming Volumens 1, 2, 3](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/The%20MMIX%20Supplement:%20Supplement%20to%20The%20Art%20of%20Computer%20Programming%20Volumens%201%2C%202%2C%203.pdf)
-    - [计算机程序设计艺术（第1卷）基本算法（第3版） 2022](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC1%E5%8D%B7%EF%BC%89%E5%9F%BA%E6%9C%AC%E7%AE%97%E6%B3%95%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89%202002.pdf)
-    - [计算机程序设计艺术（第1卷）基本算法（第3版） 英文原版](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC1%E5%8D%B7%EF%BC%89%E5%9F%BA%E6%9C%AC%E7%AE%97%E6%B3%95%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89%20%E8%8B%B1%E6%96%87%E5%8E%9F%E7%89%88.pdf)
-    - [计算机程序设计艺术（第1卷）基本算法（第三版）2007.6重印版](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC1%E5%8D%B7%EF%BC%89%E5%9F%BA%E6%9C%AC%E7%AE%97%E6%B3%95%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%892007.6%E9%87%8D%E5%8D%B0%E7%89%88.pdf)
-    - [计算机程序设计艺术（第2卷）半数值算法](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC2%E5%8D%B7%EF%BC%89%E5%8D%8A%E6%95%B0%E5%80%BC%E7%AE%97%E6%B3%95.pdf)
-    - [计算机程序设计艺术（第3卷）排序与查找](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC3%E5%8D%B7%EF%BC%89%E6%8E%92%E5%BA%8F%E4%B8%8E%E6%9F%A5%E6%89%BE.pdf)
-    - [计算机程序设计艺术（第4卷）第0册（双语版）组合算法与布尔函数概论](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC0%E5%86%8C%EF%BC%88%E5%8F%8C%E8%AF%AD%E7%89%88%EF%BC%89%E7%BB%84%E5%90%88%E7%AE%97%E6%B3%95%E4%B8%8E%E5%B8%83%E5%B0%94%E5%87%BD%E6%95%B0%E6%A6%82%E8%AE%BA.pdf)
-    - [计算机程序设计艺术（第4卷）第1册A Bitwise tricks and techniques](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC1%E5%86%8CA%20Bitwise%20tricks%20and%20techniques.pdf)
-    - [计算机程序设计艺术（第4卷）第1册B Binary decision diagrams](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC1%E5%86%8CB%20Binary%20decision%20diagrams.pdf)
-    - [计算机程序设计艺术（第4卷）第2册（双语版）生成所有元组和排列](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC2%E5%86%8C%EF%BC%88%E5%8F%8C%E8%AF%AD%E7%89%88%EF%BC%89%E7%94%9F%E6%88%90%E6%89%80%E6%9C%89%E5%85%83%E7%BB%84%E5%92%8C%E6%8E%92%E5%88%97.pdf)
-    - [计算机程序设计艺术（第4卷）第3册（双语版）生成所有组合和分划](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC3%E5%86%8C%EF%BC%88%E5%8F%8C%E8%AF%AD%E7%89%88%EF%BC%89%E7%94%9F%E6%88%90%E6%89%80%E6%9C%89%E7%BB%84%E5%90%88%E5%92%8C%E5%88%86%E5%88%92.pdf)
-    - [计算机程序设计艺术（第4卷）第4册（双语版）生成所有树组合生成和历史](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC4%E5%86%8C%EF%BC%88%E5%8F%8C%E8%AF%AD%E7%89%88%EF%BC%89%E7%94%9F%E6%88%90%E6%89%80%E6%9C%89%E6%A0%91%E7%BB%84%E5%90%88%E7%94%9F%E6%88%90%E5%92%8C%E5%8E%86%E5%8F%B2.pdf)
-    - [计算机程序设计艺术（第4卷）第5册A Mathematical Preliminaries Redux](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC5%E5%86%8CA%20Mathematical%20Preliminaries%20Redux.pdf)
-    - [计算机程序设计艺术（第4卷）第5册B Backtrack Programming](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC5%E5%86%8CB%20Backtrack%20Programming.pdf)
-    - [计算机程序设计艺术（第4卷）第5册C Dancing Links](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC5%E5%86%8CC%20Dancing%20Links.pdf)
-    - [计算机程序设计艺术（第4卷）第6册A Satisfiability](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Art%20of%20Computer%20Programming%20(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF)/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF%EF%BC%88%E7%AC%AC4%E5%8D%B7%EF%BC%89%E7%AC%AC6%E5%86%8CA%20Satisfiability.pdf)
-  - [Clean Code (A Handbook of Angile Software Craftsmanship)](https://github.com/leelening/Computer-Science-Books/blob/main/General/Clean%20Code%20(A%20Handbook%20of%20Agile%20Software%20Craftsmanship).pdf)
-  - [The Pragmatic Programmer: Your Journey to Mastery](https://github.com/leelening/Computer-Science-Books/blob/main/General/The%20Pragmatic%20Programmer%20Your%20Journey%20to%20Mastery.pdf)
-  - [Code Complete: A Practical Handbook of Software Construction](https://github.com/leelening/Computer-Science-Books/blob/main/General/Code%20Complete%20A%20Practical%20Handbook%20of%20Software%20Construction.pdf)
-  - [Soft Skills: The Software Developer's Life Manual](https://github.com/leelening/Computer-Science-Books/blob/main/General/Soft%20Skills%20The%20Software%20Developer's%20Life%20Manual.pdf)
-  - [Design Patterns Elements of Reusable Object-Oriented Software](https://github.com/leelening/Computer-Science-Books/blob/main/General/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
-  - [Refactoring: Improving the Design of Existing Code](https://github.com/leelening/Computer-Science-Books/blob/main/General/Refactoring%20Improving%20the%20Design%20of%20Existing%20Code.pdf)
-- Kubernetes
-  - [Kubernetes: Up and Running](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/Kubernetes:%20Up%20and%20Running.pdf) | Rating: 4.6/5.0
-  - [The Kubernetes Book](https://github.com/leelening/Computer-Science-Books/blob/main/Kubernetes/The%20Kubernetes%20Book.pdf) | Rating: 4.5/5.0
-- Yaml
-  - [YAML Ain't Markup Language](https://github.com/leelening/Computer-Science-Books/blob/main/YAML/YAML%20Ain%E2%80%99t%20Markup%20Language%20(YAML%E2%84%A2)%20revision%201.2.2.html)
-- Git
-  - [Pro Git](https://github.com/leelening/Computer-Science-Books/blob/main/Git/progit.pdf) | Rating: 4.5/5.0
-- Python
-  - [Learning Python](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Learning%20Python.pdf) | Rating: 4.5/5.0
-  - [Thinking Python (How to Think Like a Computer Scientist)](https://github.com/leelening/Computer-Science-Books/blob/main/Python/Think%20Python%20(How%20to%20Think%20Like%20a%20Computer%20Scientist).pdf) | Rating: 4.6/5.0
-  - [pytest](https://github.com/leelening/Computer-Science-Books/blob/main/Python/pytest.pdf) | 
-- Docker
-  - [Docker Deep Dive: Zero to Docker in a single book](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/Docker%20Deep%20Dive.pdf) | Rating: 4.6/5.0
-  - [The Docker Book: Containerization is the new visualization](https://github.com/leelening/Computer-Science-Books/blob/main/Docker/The%20Docker%20Book.pdf) | Rating: 4.4/5.0
-- Interview Problems
-  - [编程之美](https://github.com/leelening/Computer-Science-Books/blob/main/Interview%20Problems/%E7%BC%96%E7%A8%8B%E4%B9%8B%E7%BE%8E.pdf) | Rating:
-- Mongo
-  - [MongoDB: the Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Mongo/MongoDB%20(The%20Definitive%20Guide).pdf) | Rating: 4.6/5.0
-- Elasticsearch
-  - [Elasticsearch: The Definitive Guide](https://github.com/leelening/Computer-Science-Books/blob/main/Elasticsearch/Elasticsearch%20(The%20Definitive%20Guide).pdf) | Rating: 4.2/5.0
-- Machine Learning
-  - [Convex Optimization](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Convex%20Optimization.pdf)
-  - [Statistical reinforcement learning: Modern machine learning approaches](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Statistical%20reinforcement%20learning%20Modern%20machine%20learning%20approaches.pdf)
-  - [Artificial intelligence: a modern approach](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Artificial%20intelligence:%20a%20modern%20approache.pdf)
-  - [Reinforcement Learning: A Introduction](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Reinforcement%20Learning:%20A%20Introduction.pdf)
-  - [Deep Learning](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Deep%20Leraning.pdf)
-- C++
-  - [C++ Premier](https://github.com/leelening/Computer-Science-Books/blob/main/C++/C++%20Primer.pdf)
-  - [Dynamic Programming and Optimal Control]
-    - [Dynamic Programming and Optimal Control - Volume 1](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Dynamic%20Programming%20and%20Optimal%20Control%20-%20Volume%201.pdf)
-  - [Abstract Dynamic Programming](https://github.com/leelening/Computer-Science-Books/blob/main/Machine%20Learning/Abstract%20Dynamic%20Programming.pdf)
-# License
-Each file in this repository is licensed under [MIT License](https:://github.com/leelening/Computer-Science-Books/LICENSE).
+A collection of computer science textbooks and reference materials.
+
+## Overview
+
+This repository contains a curated collection of computer science books covering various topics including algorithms, data structures, machine learning, robotics, and more.
+
+## Contents
+
+The repository may include books on:
+
+- 📚 **Algorithms**: Classic algorithm textbooks
+- 🤖 **Artificial Intelligence**: AI and machine learning
+- 🔧 **Software Engineering**: Development practices
+- 📊 **Data Structures**: Fundamental data structures
+- 🧮 **Mathematics**: Mathematical foundations
+
+## Usage
+
+These books are for personal study and reference.
+
+⚠️ **Note**: Please ensure you have proper licenses for any copyrighted materials.
+
+## License
+
+The books themselves are subject to their respective publishers' copyrights. This repository structure is for organizational purposes only.
+
+## Author
+
+**Lening Li**

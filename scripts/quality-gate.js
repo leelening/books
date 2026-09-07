@@ -6,14 +6,16 @@
 // Output: { verdict: "pass" | "review" | "reject", score, reasons: string[] }
 
 export const TOPICS = [
+  "Mathematics & Foundations",
   "Algorithms & Theory",
   "Programming Languages",
   "Software Engineering",
   "Systems",
-  "AI & Machine Learning",
-  "Robotics",
+  "Machine Learning",
+  "AI, RL & Game Theory",
   "Control & Optimization",
-  "Mathematics",
+  "Robotics: Mechanics & Control",
+  "Robotics: Perception & Planning",
 ];
 
 export const PASS_SCORE = 6;

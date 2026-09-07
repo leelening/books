@@ -6,15 +6,18 @@
   <title>Classic Computer Science &amp; Robotics Books</title>
   <meta name="description" content="A curated, links-only library of classic computer science and robotics books. Search it; if a book is missing, the search offers to find it online and add it.">
   <meta name="color-scheme" content="light dark">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231f6feb'/%3E%3Cpath d='M28 22h44v56H28z' fill='%23fff'/%3E%3Cpath d='M36 34h28M36 46h28M36 58h18' stroke='%231f6feb' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23a0341f'/%3E%3Cpath d='M30 20h40v60H30z' fill='%23f6efe3'/%3E%3Cpath d='M30 20h8v60h-8z' fill='%236f2112'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap">
+    <div class="wrap bar">
       <a class="brand" href="./">
         <span class="brand-mark" aria-hidden="true"></span>
-        <span>Classic CS &amp; Robotics Books</span>
+        <span class="brand-name">Classic CS <em>&amp;</em> Robotics Books</span>
       </a>
       <nav class="site-nav">
         <a href="#how">How it works</a>
@@ -23,63 +26,96 @@
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <h1>The books worth reading, and where to read them.</h1>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">A links-only library</p>
+      <h1>The books worth reading,<br><em>and where to read them.</em></h1>
       <p class="lede">
-        A short, opinionated list of classic computer science and robotics books.
-        <strong>No files are hosted here</strong> — every entry links to the author's legal free copy when one exists, otherwise to the publisher.
+        A short, opinionated list of the classics in computer science and robotics.
+        Nothing is hosted here. A <strong>Free PDF</strong> link appears only when the copy is published by the rights holder themselves
+        — the author's own site, the publisher, or an open licence. Everything else links to the publisher.
       </p>
-
       <form class="search" role="search" onsubmit="return false">
         <label class="visually-hidden" for="q">Search books</label>
         <input id="q" type="search" autocomplete="off" spellcheck="false"
-               placeholder="Search by title, author, or topic — e.g. “Kalman filter”, “Knuth”, “compilers”">
-        <span class="search-hint" id="count"></span>
+               placeholder="Search titles, authors, topics — try “Kalman”, “Knuth”, “compilers”">
+        <kbd class="search-kbd" aria-hidden="true">/</kbd>
       </form>
+      <p class="stats" id="stats"></p>
+    </div>
+  </section>
 
-      <div class="chips" id="chips" role="tablist" aria-label="Topics"></div>
-    </section>
+  <main class="wrap layout">
+    <aside class="side">
+      <div class="side-sticky">
+        <h2 class="side-title">Topics</h2>
+        <nav class="topics" id="chips" aria-label="Topics"></nav>
+        <label class="toggle">
+          <input type="checkbox" id="freeOnly">
+          <span class="toggle-ui" aria-hidden="true"></span>
+          <span>Free to read only</span>
+        </label>
+        <p class="side-note">Missing a book? Search for it — if it isn't listed, we'll look it up on Open Library and let you add it.</p>
+      </div>
+    </aside>
 
-    <section id="results" class="results" aria-live="polite"></section>
+    <div class="content">
+      <div class="content-head">
+        <span id="count" class="count"></span>
+      </div>
+      <section id="results" class="results" aria-live="polite"></section>
+      <section id="online" class="online" hidden></section>
+    </div>
+  </main>
 
-    <section id="online" class="online" hidden></section>
-
-    <section id="how" class="how">
-      <h2>How it works</h2>
+  <section id="how" class="how">
+    <div class="wrap">
+      <h2>How this library works</h2>
       <div class="how-grid">
         <div>
+          <span class="num">01</span>
           <h3>Links only</h3>
-          <p>The repository stores a single <code>books.json</code>. Nothing copyrighted is hosted; “Read free” always points at a copy the author or publisher has made freely available.</p>
+          <p>The repository stores one <code>books.json</code>. Nothing copyrighted is hosted; “Read free” always points at a copy the author or publisher has made freely available.</p>
         </div>
         <div>
+          <span class="num">02</span>
           <h3>Classics only</h3>
-          <p>A book gets in when it has stayed in print, gone through editions, and is what practitioners actually recommend. Fashionable and new are not disqualifiers, but they are not enough.</p>
+          <p>A book gets in when it has stayed in print, gone through editions, and is what practitioners actually recommend. New and popular are not disqualifiers, but they are not enough.</p>
         </div>
         <div>
-          <h3>Missing something?</h3>
-          <p>Search for it. If it isn't in the list, the search bar looks it up on <a href="https://openlibrary.org" rel="noopener">Open Library</a>, previews whether it clears the bar, and lets you submit it. A GitHub Action re-checks and adds it automatically; borderline cases wait for a maintainer.</p>
+          <span class="num">03</span>
+          <h3>Rights respected</h3>
+          <p>Free links are checked one by one: the file must sit on the author's or publisher's own domain, or carry an open licence. No mirrors, no "found" PDFs. Rights holder who wants a link removed? <a href="https://github.com/leelening/computer_science_books/issues/new" rel="noopener">Open an issue</a> — it comes down promptly.</p>
+        </div>
+        <div>
+          <span class="num">04</span>
+          <h3>Add one in a minute</h3>
+          <p>Search for a missing book. The site checks <a href="https://openlibrary.org" rel="noopener">Open Library</a>, previews whether it clears the bar, and lets you submit it. A GitHub Action re-checks and adds it; borderline cases wait for a maintainer.</p>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="wrap">
-      <span>Maintained by <a href="https://github.com/leelening" rel="noopener">Lening Li</a>. Repository code is MIT; book titles and links belong to their authors and publishers.</span>
-      <span><a href="https://github.com/leelening/computer_science_books/issues/new?template=add-book.yml" rel="noopener">Suggest a book</a></span>
+      <span>Maintained by <a href="https://github.com/leelening" rel="noopener">Lening Li</a>. Code is MIT; titles and links belong to their authors and publishers.</span>
+      <a href="https://github.com/leelening/computer_science_books/issues/new?template=add-book.yml" rel="noopener">Suggest a book →</a>
     </div>
   </footer>
 
   <template id="card-tpl">
-    <article class="card">
-      <div class="cover" aria-hidden="true"></div>
-      <div class="card-body">
-        <div class="card-topic"></div>
-        <h3 class="card-title"></h3>
-        <p class="card-meta"></p>
-        <p class="card-why"></p>
-        <div class="card-links"></div>
+    <article class="book">
+      <a class="cover" aria-hidden="true" tabindex="-1" target="_blank" rel="noopener">
+        <span class="cover-top"><span class="cover-topic"></span><span class="cover-year"></span></span>
+        <span class="cover-band"><span class="cover-title"></span><span class="cover-author"></span></span>
+        <span class="ribbon" hidden>Free</span>
+      </a>
+      <div class="book-body">
+        <div class="book-topic"></div>
+        <h3 class="book-title"></h3>
+        <p class="book-meta"></p>
+        <p class="book-why"></p>
+        <div class="book-links"></div>
       </div>
     </article>
   </template>

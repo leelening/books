@@ -6,21 +6,33 @@ const OL_FIELDS = "key,title,author_name,first_publish_year,edition_count,publis
 
 // One colour pair per topic — used for the generated cover tiles and topic labels.
 const PALETTE = {
-  "Algorithms & Theory":     ["#5b4bd6", "#2c2380", "#5b4bd6"],
-  "Programming Languages":   ["#d97a1f", "#7a3d05", "#b8621a"],
-  "Software Engineering":    ["#0e8a7d", "#0a4f48", "#0e8a7d"],
-  "Systems":                 ["#5c6b7a", "#2c3640", "#5c6b7a"],
-  "AI & Machine Learning":   ["#c23a8c", "#6d1a4c", "#c23a8c"],
-  "Robotics":                ["#1f6feb", "#0b3a80", "#1f6feb"],
-  "Control & Optimization":  ["#b0341e", "#5e1a0c", "#b0341e"],
-  "Mathematics":             ["#7a8a12", "#3d4508", "#6d7b10"],
+  "Mathematics & Foundations":       ["#3d5a80", "#3d5a80"],
+  "Algorithms & Theory":             ["#4a3f8f", "#4a3f8f"],
+  "Programming Languages":           ["#a85b1b", "#a85b1b"],
+  "Software Engineering":            ["#1f7a6d", "#1f7a6d"],
+  "Systems":                         ["#4b5563", "#4b5563"],
+  "Machine Learning":                ["#9c2f6f", "#9c2f6f"],
+  "AI, RL & Game Theory":            ["#7a2d8c", "#7a2d8c"],
+  "Control & Optimization":          ["#a0341f", "#a0341f"],
+  "Robotics: Mechanics & Control":   ["#1f5fbf", "#1f5fbf"],
+  "Robotics: Perception & Planning": ["#0f766e", "#0f766e"],
 };
+
+// Deterministic small hue shift per book so a shelf of one topic isn't uniform.
+function hash(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+function coverColor(book) {
+  const base = (PALETTE[book.topic] || ["#555"])[0];
+  const [r, g, b] = [1, 3, 5].map((i) => parseInt(base.slice(i, i + 2), 16));
+  const k = ((hash(book.id) % 21) - 10) / 100; // -10% .. +10%
+  const adj = (v) => Math.max(0, Math.min(255, Math.round(v * (1 + k))));
+  return `rgb(${adj(r)} ${adj(g)} ${adj(b)})`;
+}
 
 const $ = (s, el = document) => el.querySelector(s);
 const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-const state = { books: [], topic: "All", q: "", onlineTimer: null, onlineAbort: null };
+const state = { books: [], topic: "All", q: "", freeOnly: false, onlineTimer: null, onlineAbort: null };
 
 // ---------- boot ----------
 async function boot() {
@@ -30,10 +42,20 @@ async function boot() {
   const params = new URLSearchParams(location.search);
   state.q = params.get("q") || "";
   state.topic = TOPICS.includes(params.get("topic")) ? params.get("topic") : "All";
+  state.freeOnly = params.get("free") === "1";
   $("#q").value = state.q;
+  $("#freeOnly").checked = state.freeOnly;
+
+  const free = state.books.filter((b) => b.links?.free).length;
+  $("#stats").innerHTML = `<span><b>${state.books.length}</b> books</span><span><b>${free}</b> free to read, legally</span><span><b>${TOPICS.length}</b> topics</span>`;
 
   renderChips();
   render();
+
+  $("#freeOnly").addEventListener("change", (e) => { state.freeOnly = e.target.checked; syncUrl(); render(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && !/input|textarea/i.test(document.activeElement?.tagName)) { e.preventDefault(); $("#q").focus(); $("#q").select(); }
+  });
 
   $("#q").addEventListener("input", (e) => { state.q = e.target.value; syncUrl(); render(); });
   $("#q").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.target.value = ""; state.q = ""; syncUrl(); render(); } });
@@ -44,6 +66,7 @@ function syncUrl() {
   const p = new URLSearchParams();
   if (state.q) p.set("q", state.q);
   if (state.topic !== "All") p.set("topic", state.topic);
+  if (state.freeOnly) p.set("free", "1");
   const qs = p.toString();
   history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
 }
@@ -54,8 +77,8 @@ function renderChips() {
   const counts = Object.fromEntries(TOPICS.map((t) => [t, 0]));
   for (const b of state.books) counts[b.topic] = (counts[b.topic] || 0) + 1;
   const mk = (label, n) => {
-    const c = el("button", "chip"); c.type = "button"; c.setAttribute("role", "tab");
-    c.append(label, Object.assign(el("span", "n", n), {}));
+    const c = el("button", "chip"); c.type = "button"; c.setAttribute("aria-pressed", String(state.topic === label));
+    c.append(el("span", null, label), el("span", "n", n));
     c.setAttribute("aria-selected", String(state.topic === label));
     c.onclick = () => { state.topic = label; syncUrl(); renderChips(); render(); };
     return c;
@@ -94,17 +117,20 @@ function highlight(text, toks) {
 
 function render() {
   const toks = tokens(state.q);
-  const pool = state.topic === "All" ? state.books : state.books.filter((b) => b.topic === state.topic);
+  let pool = state.topic === "All" ? state.books : state.books.filter((b) => b.topic === state.topic);
+  if (state.freeOnly) pool = pool.filter((b) => b.links?.free);
   const hits = pool.map((b) => [score(b, toks), b]).filter(([s]) => s > 0).sort((a, b) => b[0] - a[0] || a[1].year - b[1].year);
 
   const out = $("#results"); out.innerHTML = "";
-  $("#count").textContent = toks.length ? `${hits.length} of ${pool.length}` : `${pool.length} books`;
+  $("#count").textContent = toks.length ? `${hits.length} of ${pool.length} match` : `${pool.length} book${pool.length === 1 ? "" : "s"}${state.freeOnly ? " · free to read" : ""}`;
 
   if (!hits.length) {
     const e = el("div", "empty");
-    e.innerHTML = `Nothing in the library matches <strong>${esc(state.q)}</strong>${state.topic !== "All" ? ` under ${esc(state.topic)}` : ""}.`;
+    e.innerHTML = state.q.trim()
+      ? `Nothing in the library matches <strong>${esc(state.q)}</strong>${state.topic !== "All" ? ` under ${esc(state.topic)}` : ""}${state.freeOnly ? " with a free copy" : ""}.`
+      : `No books here yet.`;
     out.append(e);
-    scheduleOnline(state.q.trim());
+    if (state.q.trim()) scheduleOnline(state.q.trim()); else hideOnline();
     return;
   }
   hideOnline();
@@ -114,8 +140,10 @@ function render() {
     for (const t of TOPICS) {
       const group = hits.filter(([, b]) => b.topic === t).map(([, b]) => b).sort((a, b) => a.year - b.year);
       if (!group.length) continue;
-      out.append(el("h2", "group-title", t));
-      const g = el("div", "grid grouped"); for (const b of group) g.append(card(b, toks)); out.append(g);
+      const sec = el("section", "group grouped");
+      const head = el("div", "group-head"); head.append(el("h2", null, t), el("span", "n", `${group.length}`)); sec.append(head);
+      const g = el("div", "grid"); for (const b of group) g.append(card(b, toks)); sec.append(g);
+      out.append(sec);
     }
   } else {
     const g = el("div", "grid"); for (const [, b] of hits) g.append(card(b, toks)); out.append(g);
@@ -124,25 +152,42 @@ function render() {
 
 function card(b, toks) {
   const node = $("#card-tpl").content.firstElementChild.cloneNode(true);
-  const [c1, c2, tc] = PALETTE[b.topic] || ["#555", "#222", "#555"];
-  node.style.setProperty("--c1", c1); node.style.setProperty("--c2", c2); node.style.setProperty("--tc", tc);
+  const tc = (PALETTE[b.topic] || ["#555", "#555"])[1];
+  node.style.setProperty("--c", coverColor(b));
+  node.style.setProperty("--tc", tc);
 
-  const cover = $(".cover", node);
-  cover.textContent = shortTitle(b.title);
+  const L = b.links || {};
+  const primary = L.free || L.official || L.openlibrary || `https://openlibrary.org/search?q=${encodeURIComponent(`${b.title} ${b.authors[0] || ""}`)}`;
+  const cover = $(".cover", node); cover.href = primary;
+  $(".cover-topic", node).textContent = b.topic.replace(/^Robotics: /, "");
+  $(".cover-year", node).textContent = b.year || "";
+  $(".cover-title", node).textContent = shortTitle(b.title);
+  $(".cover-author", node).textContent = b.authors.map(surname).slice(0, 3).join(" · ");
+  if (L.free) $(".ribbon", node).hidden = false;
   if (b.cover) { const img = new Image(); img.src = `https://covers.openlibrary.org/b/id/${b.cover}-M.jpg`; img.alt = ""; img.loading = "lazy"; img.onerror = () => img.remove(); cover.append(img); }
 
-  $(".card-topic", node).textContent = b.topic;
-  $(".card-title", node).innerHTML = highlight(b.title, toks);
-  const meta = [b.authors.join(", "), b.edition ? `${b.edition}` : (b.year ? `${b.year}` : "")].filter(Boolean).join(" · ");
-  $(".card-meta", node).innerHTML = highlight(meta, toks);
-  $(".card-why", node).textContent = b.why;
+  $(".book-topic", node).textContent = b.topic; $(".book-topic", node).style.color = tc;
+  $(".book-title", node).innerHTML = highlight(b.title, toks);
+  const meta = [b.authors.join(", "), b.edition || (b.year ? String(b.year) : "")].filter(Boolean).join(" · ");
+  $(".book-meta", node).innerHTML = highlight(meta, toks);
+  $(".book-why", node).textContent = b.why;
 
-  const links = $(".card-links", node);
-  const L = b.links || {};
-  if (L.free) links.append(link(L.free, "Read free", "lnk free ext"));
-  if (L.official) links.append(link(L.official, /link\.springer|mitpress|pearson|pragprog|oreilly|wiley|athenasc|cambridge/.test(L.official) ? "Publisher" : "Official site", "lnk ext"));
+  const links = $(".book-links", node);
+  if (L.free) {
+    const isPdf = /\.pdf(\?|$)/i.test(L.free);
+    const a = link(L.free, isPdf ? "Free PDF" : "Read free", "lnk free ext");
+    a.title = `Published by the rights holder at ${host(L.free)}`;
+    links.append(a);
+  }
+  if (L.official) links.append(link(L.official, officialLabel(L.official), "lnk ext"));
   links.append(link(L.openlibrary || `https://openlibrary.org/search?q=${encodeURIComponent(`${b.title} ${b.authors[0] || ""}`)}`, "Open Library", "lnk ext"));
   return node;
+}
+
+function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } }
+function surname(a) { return String(a).replace(/,.*$/, "").trim().split(/\s+/).pop(); }
+function officialLabel(u) {
+  return /link\.springer|mitpress|pearson|pragprog|oreilly|wiley|athenasc|cambridge|man7|siam/.test(u) ? "Publisher" : "Book site";
 }
 
 function link(href, text, cls) { const a = el("a", cls, text); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; }
@@ -239,13 +284,15 @@ function hit(d) {
 function guessTopic(d) {
   const h = [d.title, ...(d.subject || []).slice(0, 40)].join(" ").toLowerCase();
   const rules = [
-    ["Robotics", /robot|kinematic|manipulat|slam|autonomous|computer vision|motion planning/],
-    ["Control & Optimization", /control|optimi[sz]ation|kalman|estimation|dynamic programming|mpc/],
-    ["AI & Machine Learning", /machine learning|artificial intelligence|neural|deep learning|reinforcement|pattern recognition|statistical learning|graphical model/],
-    ["Systems", /operating system|computer architecture|network|database|distributed|unix|linux|compiler/],
-    ["Software Engineering", /software engineering|refactor|design pattern|agile|clean code|software development/],
-    ["Programming Languages", /programming language|c\+\+|python|java\b|scheme|lisp|haskell|rust|\bgit\b/],
-    ["Mathematics", /mathematic|linear algebra|probability|statistics|calculus|discrete/],
+    ["Robotics: Perception & Planning", /slam|localization|motion planning|computer vision|state estimation|mobile robot|perception/],
+    ["Robotics: Mechanics & Control", /robot|kinematic|manipulat|mechatronic|legged|humanoid/],
+    ["AI, RL & Game Theory", /reinforcement|markov decision|game theory|multi-?agent|mechanism design|artificial intelligence/],
+    ["Control & Optimization", /control|optimi[sz]ation|kalman|dynamic programming|mpc|feedback/],
+    ["Machine Learning", /machine learning|neural|deep learning|pattern recognition|statistical learning|graphical model|bayesian/],
+    ["Systems", /operating system|computer architecture|network|database|distributed|unix|linux|compiler|concurren|hardware/],
+    ["Software Engineering", /software engineering|refactor|design pattern|agile|clean code|software development|reliability|project management/],
+    ["Programming Languages", /programming language|c\+\+|python|java\b|scheme|lisp|haskell|rust|type system|\bgit\b/],
+    ["Mathematics & Foundations", /mathematic|linear algebra|probability|statistics|calculus|discrete|numerical/],
   ];
   for (const [t, re] of rules) if (re.test(h)) return t;
   return "Algorithms & Theory";

@@ -6,7 +6,7 @@ A short, curated list of classic computer science and robotics books, with links
 
 Three rules:
 
-1. **Links only.** No PDFs or other files are stored in this repository. Every entry links to the author's or publisher's legal free copy when one exists, otherwise to the publisher's page, plus Open Library.
+1. **Links only, rights respected.** No PDFs or other files are stored in this repository. A "Read free" link is added only when the copy is published by the rights holder — the author's own site, the publisher, or an open-access licence (CC BY-NC etc.). Never mirrors, never "found" PDFs. Every other entry links to the publisher's page and Open Library. If you hold rights to a linked work and want the link removed, [open an issue](https://github.com/leelening/computer_science_books/issues/new) and it will be taken down promptly.
 2. **Classics only.** Books that have stayed in print, gone through editions, and are what practitioners actually recommend. Being new or popular is not enough.
 3. **Computer science and robotics**, plus the mathematics and control theory that underpin them.
 
@@ -66,7 +66,7 @@ npm run serve       # http://localhost:8080
 }
 ```
 
-`topic` is one of: Algorithms & Theory · Programming Languages · Software Engineering · Systems · AI & Machine Learning · Robotics · Control & Optimization · Mathematics.
+`topic` is one of: Mathematics & Foundations · Algorithms & Theory · Programming Languages · Software Engineering · Systems · Machine Learning · AI, RL & Game Theory · Control & Optimization · Robotics: Mechanics & Control · Robotics: Perception & Planning.
 
 ## Setup (one-time, for the maintainer)
 

@@ -49,7 +49,7 @@ Sebastian Thrun, Wolfram Burgard, Dieter Fox
 
 ### Topic
 
-Robotics
+Robotics: Perception & Planning
 
 ### Official or free link
 
@@ -61,7 +61,7 @@ _No response_`;
 const form = parseIssueForm(body);
 assert.equal(form.title, "Probabilistic Robotics");
 assert.equal(form.olkey, "/works/OL8196103W");
-assert.equal(form.topic, "Robotics");
+assert.equal(form.topic, "Robotics: Perception & Planning");
 assert.equal(form.why, "");
 
 // --- end-to-end against a temp books.json ---
@@ -84,7 +84,7 @@ const fetchFor = (doc) => async () => [doc];
   const books = h.read();
   assert.equal(books.length, 1);
   assert.equal(books[0].id, "probabilistic-robotics");
-  assert.equal(books[0].topic, "Robotics");
+  assert.equal(books[0].topic, "Robotics: Perception & Planning");
   assert.equal(books[0].links.official, "http://www.probabilistic-robotics.org/");
   assert.equal(books[0].links.openlibrary, "https://openlibrary.org/works/OL8196103W");
   assert.equal(h.log.closed, "completed");

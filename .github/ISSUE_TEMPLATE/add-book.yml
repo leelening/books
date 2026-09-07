@@ -39,14 +39,16 @@ body:
     attributes:
       label: Topic
       options:
+        - Mathematics & Foundations
         - Algorithms & Theory
         - Programming Languages
         - Software Engineering
         - Systems
-        - AI & Machine Learning
-        - Robotics
+        - Machine Learning
+        - AI, RL & Game Theory
         - Control & Optimization
-        - Mathematics
+        - "Robotics: Mechanics & Control"
+        - "Robotics: Perception & Planning"
     validations:
       required: true
   - type: input

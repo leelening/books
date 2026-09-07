@@ -1,0 +1,1514 @@
+{
+  "updated": "2026-09-07",
+  "books": [
+    {
+      "id": "introduction-to-algorithms",
+      "title": "Introduction to Algorithms",
+      "authors": [
+        "Thomas H. Cormen",
+        "Charles E. Leiserson",
+        "Ronald L. Rivest",
+        "Clifford Stein"
+      ],
+      "year": 1990,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "algorithms",
+        "data structures",
+        "CLRS"
+      ],
+      "why": "The standard reference and textbook for algorithms; rigorous, complete, and still the book everyone is measured against.",
+      "links": {
+        "official": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+      },
+      "edition": "4th ed., 2022"
+    },
+    {
+      "id": "the-art-of-computer-programming",
+      "title": "The Art of Computer Programming",
+      "authors": [
+        "Donald E. Knuth"
+      ],
+      "year": 1968,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "algorithms",
+        "analysis",
+        "Knuth",
+        "TAOCP"
+      ],
+      "why": "Knuth's life work. Volumes 1–4B cover fundamental, seminumerical, sorting/searching and combinatorial algorithms with unmatched depth.",
+      "links": {
+        "official": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html"
+      },
+      "edition": "Vols. 1–4B"
+    },
+    {
+      "id": "algorithm-design",
+      "title": "Algorithm Design",
+      "authors": [
+        "Jon Kleinberg",
+        "Éva Tardos"
+      ],
+      "year": 2005,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "algorithms",
+        "design",
+        "network flow"
+      ],
+      "why": "Teaches algorithm design as a way of thinking, with unusually clear treatment of greedy, divide-and-conquer, DP and network flow.",
+      "links": {}
+    },
+    {
+      "id": "algorithms",
+      "title": "Algorithms",
+      "authors": [
+        "Robert Sedgewick",
+        "Kevin Wayne"
+      ],
+      "year": 1983,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "algorithms",
+        "Java",
+        "data structures"
+      ],
+      "why": "Practical, code-first algorithms with a superb companion booksite; the best bridge between theory and working implementations.",
+      "links": {
+        "official": "https://algs4.cs.princeton.edu/home/"
+      },
+      "edition": "4th ed., 2011"
+    },
+    {
+      "id": "the-algorithm-design-manual",
+      "title": "The Algorithm Design Manual",
+      "authors": [
+        "Steven S. Skiena"
+      ],
+      "year": 1997,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "algorithms",
+        "problem solving",
+        "catalog"
+      ],
+      "why": "The 'war stories' and the catalog of algorithmic problems make it the book engineers actually reach for when stuck.",
+      "links": {
+        "official": "https://www.algorist.com/"
+      },
+      "edition": "3rd ed., 2020"
+    },
+    {
+      "id": "introduction-to-the-theory-of-computation",
+      "title": "Introduction to the Theory of Computation",
+      "authors": [
+        "Michael Sipser"
+      ],
+      "year": 1997,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "automata",
+        "computability",
+        "complexity"
+      ],
+      "why": "The clearest introduction to automata, computability and complexity; proofs that read like explanations.",
+      "links": {
+        "official": "https://math.mit.edu/~sipser/book.html"
+      },
+      "edition": "3rd ed., 2012"
+    },
+    {
+      "id": "compilers-principles-techniques-and-tools",
+      "title": "Compilers: Principles, Techniques, and Tools",
+      "authors": [
+        "Alfred V. Aho",
+        "Monica S. Lam",
+        "Ravi Sethi",
+        "Jeffrey D. Ullman"
+      ],
+      "year": 1986,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "compilers",
+        "parsing",
+        "dragon book"
+      ],
+      "why": "The Dragon Book. Lexing, parsing, semantic analysis, optimization — the canonical compiler text for four decades.",
+      "links": {
+        "official": "https://suif.stanford.edu/dragonbook/"
+      },
+      "edition": "2nd ed., 2006"
+    },
+    {
+      "id": "concrete-mathematics",
+      "title": "Concrete Mathematics",
+      "authors": [
+        "Ronald L. Graham",
+        "Donald E. Knuth",
+        "Oren Patashnik"
+      ],
+      "year": 1989,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "discrete math",
+        "sums",
+        "recurrences",
+        "generating functions"
+      ],
+      "why": "The mathematics behind algorithm analysis, taught with wit and margin notes; the foundation for reading TAOCP.",
+      "links": {
+        "official": "https://www-cs-faculty.stanford.edu/~knuth/gkp.html"
+      },
+      "edition": "2nd ed., 1994"
+    },
+    {
+      "id": "computational-complexity-a-modern-approach",
+      "title": "Computational Complexity: A Modern Approach",
+      "authors": [
+        "Sanjeev Arora",
+        "Boaz Barak"
+      ],
+      "year": 2009,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "complexity",
+        "P vs NP",
+        "PCP"
+      ],
+      "why": "The modern graduate complexity text, from P/NP to PCP and derandomization; the authors' draft is free online.",
+      "links": {
+        "free": "https://theory.cs.princeton.edu/complexity/"
+      }
+    },
+    {
+      "id": "principles-of-model-checking",
+      "title": "Principles of Model Checking",
+      "authors": [
+        "Christel Baier",
+        "Joost-Pieter Katoen"
+      ],
+      "year": 2008,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "formal methods",
+        "temporal logic",
+        "LTL",
+        "CTL",
+        "verification"
+      ],
+      "why": "The definitive textbook on model checking and temporal logic — LTL, CTL, fairness, probabilistic systems — in one rigorous volume.",
+      "links": {
+        "official": "https://mitpress.mit.edu/9780262026499/principles-of-model-checking/"
+      }
+    },
+    {
+      "id": "programming-pearls",
+      "title": "Programming Pearls",
+      "authors": [
+        "Jon Bentley"
+      ],
+      "year": 1986,
+      "topic": "Algorithms & Theory",
+      "tags": [
+        "problem solving",
+        "performance",
+        "essays"
+      ],
+      "why": "Short essays on thinking clearly about programs; the bit-vector sort and back-of-the-envelope chapters are legendary.",
+      "links": {},
+      "edition": "2nd ed., 1999"
+    },
+    {
+      "id": "structure-and-interpretation-of-computer-programs",
+      "title": "Structure and Interpretation of Computer Programs",
+      "authors": [
+        "Harold Abelson",
+        "Gerald Jay Sussman",
+        "Julie Sussman"
+      ],
+      "year": 1985,
+      "topic": "Programming Languages",
+      "tags": [
+        "Scheme",
+        "abstraction",
+        "interpreters",
+        "SICP"
+      ],
+      "why": "MIT's legendary introduction to computation: abstraction, interpreters, and the metacircular evaluator. Full text free from MIT Press.",
+      "links": {
+        "free": "https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html",
+        "official": "https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/"
+      },
+      "edition": "2nd ed., 1996"
+    },
+    {
+      "id": "the-c-programming-language",
+      "title": "The C Programming Language",
+      "authors": [
+        "Brian W. Kernighan",
+        "Dennis M. Ritchie"
+      ],
+      "year": 1978,
+      "topic": "Programming Languages",
+      "tags": [
+        "C",
+        "K&R"
+      ],
+      "why": "K&R. The book that defined how programming languages should be documented — terse, precise, and complete in under 300 pages.",
+      "links": {},
+      "edition": "2nd ed., 1988"
+    },
+    {
+      "id": "the-cpp-programming-language",
+      "title": "The C++ Programming Language",
+      "authors": [
+        "Bjarne Stroustrup"
+      ],
+      "year": 1985,
+      "topic": "Programming Languages",
+      "tags": [
+        "C++"
+      ],
+      "why": "The language from its designer; the 4th edition is the authoritative account of modern C++11 design and idiom.",
+      "links": {
+        "official": "https://www.stroustrup.com/4th.html"
+      },
+      "edition": "4th ed., 2013"
+    },
+    {
+      "id": "cpp-primer",
+      "title": "C++ Primer",
+      "authors": [
+        "Stanley B. Lippman",
+        "Josée Lajoie",
+        "Barbara E. Moo"
+      ],
+      "year": 1989,
+      "topic": "Programming Languages",
+      "tags": [
+        "C++",
+        "tutorial"
+      ],
+      "why": "The most thorough C++ tutorial; the 5th edition remains the standard way to learn the language properly from scratch.",
+      "links": {},
+      "edition": "5th ed., 2012"
+    },
+    {
+      "id": "effective-cpp",
+      "title": "Effective C++",
+      "authors": [
+        "Scott Meyers"
+      ],
+      "year": 1991,
+      "topic": "Programming Languages",
+      "tags": [
+        "C++",
+        "best practices"
+      ],
+      "why": "55 specific ways to improve your programs and designs; shaped how a generation writes C++.",
+      "links": {
+        "official": "https://www.aristeia.com/books.html"
+      },
+      "edition": "3rd ed., 2005"
+    },
+    {
+      "id": "the-practice-of-programming",
+      "title": "The Practice of Programming",
+      "authors": [
+        "Brian W. Kernighan",
+        "Rob Pike"
+      ],
+      "year": 1999,
+      "topic": "Programming Languages",
+      "tags": [
+        "style",
+        "debugging",
+        "design"
+      ],
+      "why": "Simplicity, clarity, generality — Kernighan and Pike on the craft, with examples in C, C++, Java, Perl.",
+      "links": {
+        "official": "https://www.cs.princeton.edu/~bwk/tpop.webpage/"
+      }
+    },
+    {
+      "id": "think-python",
+      "title": "Think Python",
+      "authors": [
+        "Allen B. Downey"
+      ],
+      "year": 2012,
+      "topic": "Programming Languages",
+      "tags": [
+        "Python",
+        "beginner"
+      ],
+      "why": "How to think like a computer scientist, in Python. Free, concise, and widely used as a first programming book.",
+      "links": {
+        "free": "https://allendowney.github.io/ThinkPython/",
+        "official": "https://greenteapress.com/wp/think-python-3rd-edition/"
+      },
+      "edition": "3rd ed., 2024"
+    },
+    {
+      "id": "fluent-python",
+      "title": "Fluent Python",
+      "authors": [
+        "Luciano Ramalho"
+      ],
+      "year": 2015,
+      "topic": "Programming Languages",
+      "tags": [
+        "Python",
+        "advanced",
+        "data model"
+      ],
+      "why": "The book that turns Python users into Python programmers: the data model, protocols, iterators, concurrency, metaprogramming.",
+      "links": {
+        "official": "https://www.fluentpython.com/"
+      },
+      "edition": "2nd ed., 2022"
+    },
+    {
+      "id": "pro-git",
+      "title": "Pro Git",
+      "authors": [
+        "Scott Chacon",
+        "Ben Straub"
+      ],
+      "year": 2009,
+      "topic": "Programming Languages",
+      "tags": [
+        "git",
+        "version control"
+      ],
+      "why": "The official Git book — from basics to internals — maintained and free at git-scm.com.",
+      "links": {
+        "free": "https://git-scm.com/book/en/v2"
+      },
+      "edition": "2nd ed., 2014"
+    },
+    {
+      "id": "code-complete",
+      "title": "Code Complete",
+      "authors": [
+        "Steve McConnell"
+      ],
+      "year": 1993,
+      "topic": "Software Engineering",
+      "tags": [
+        "construction",
+        "craft",
+        "practices"
+      ],
+      "why": "An encyclopedic, evidence-based handbook of software construction; the most-cited practical programming book.",
+      "links": {},
+      "edition": "2nd ed., 2004"
+    },
+    {
+      "id": "clean-code",
+      "title": "Clean Code",
+      "authors": [
+        "Robert C. Martin"
+      ],
+      "year": 2008,
+      "topic": "Software Engineering",
+      "tags": [
+        "craft",
+        "readability",
+        "refactoring"
+      ],
+      "why": "A handbook of agile software craftsmanship — naming, functions, comments, tests — that set the vocabulary for code quality.",
+      "links": {}
+    },
+    {
+      "id": "design-patterns-elements-of-reusable-object-oriented-software",
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Erich Gamma",
+        "Richard Helm",
+        "Ralph Johnson",
+        "John Vlissides"
+      ],
+      "year": 1994,
+      "topic": "Software Engineering",
+      "tags": [
+        "patterns",
+        "OOP",
+        "GoF"
+      ],
+      "why": "The Gang of Four. 23 patterns that gave object-oriented designers a shared language.",
+      "links": {}
+    },
+    {
+      "id": "refactoring-improving-the-design-of-existing-code",
+      "title": "Refactoring: Improving the Design of Existing Code",
+      "authors": [
+        "Martin Fowler"
+      ],
+      "year": 1999,
+      "topic": "Software Engineering",
+      "tags": [
+        "refactoring",
+        "design"
+      ],
+      "why": "Named and catalogued the small behavior-preserving transformations every good programmer makes; the 2nd edition uses JavaScript.",
+      "links": {
+        "official": "https://refactoring.com/"
+      },
+      "edition": "2nd ed., 2018"
+    },
+    {
+      "id": "the-pragmatic-programmer",
+      "title": "The Pragmatic Programmer",
+      "authors": [
+        "David Thomas",
+        "Andrew Hunt"
+      ],
+      "year": 1999,
+      "topic": "Software Engineering",
+      "tags": [
+        "craft",
+        "career",
+        "practices"
+      ],
+      "why": "From journeyman to master: DRY, orthogonality, tracer bullets, and dozens of habits that still define professional practice.",
+      "links": {
+        "official": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
+      },
+      "edition": "20th Anniversary ed., 2019"
+    },
+    {
+      "id": "the-mythical-man-month",
+      "title": "The Mythical Man-Month",
+      "authors": [
+        "Frederick P. Brooks Jr."
+      ],
+      "year": 1975,
+      "topic": "Software Engineering",
+      "tags": [
+        "project management",
+        "essays"
+      ],
+      "why": "Brooks's Law, the second-system effect, No Silver Bullet — essays on software engineering that have never stopped being true.",
+      "links": {},
+      "edition": "Anniversary ed., 1995"
+    },
+    {
+      "id": "designing-data-intensive-applications",
+      "title": "Designing Data-Intensive Applications",
+      "authors": [
+        "Martin Kleppmann"
+      ],
+      "year": 2017,
+      "topic": "Software Engineering",
+      "tags": [
+        "distributed systems",
+        "databases",
+        "storage"
+      ],
+      "why": "The big ideas behind reliable, scalable, maintainable systems: replication, partitioning, consistency, stream and batch processing.",
+      "links": {
+        "official": "https://dataintensive.net/"
+      }
+    },
+    {
+      "id": "computer-systems-a-programmer-s-perspective",
+      "title": "Computer Systems: A Programmer's Perspective",
+      "authors": [
+        "Randal E. Bryant",
+        "David R. O'Hallaron"
+      ],
+      "year": 2003,
+      "topic": "Systems",
+      "tags": [
+        "computer systems",
+        "assembly",
+        "memory",
+        "linking"
+      ],
+      "why": "CS:APP. How hardware and OS shape program behavior — data representation, machine code, caching, linking, concurrency.",
+      "links": {
+        "official": "https://csapp.cs.cmu.edu/"
+      },
+      "edition": "3rd ed., 2016"
+    },
+    {
+      "id": "operating-systems-three-easy-pieces",
+      "title": "Operating Systems: Three Easy Pieces",
+      "authors": [
+        "Remzi H. Arpaci-Dusseau",
+        "Andrea C. Arpaci-Dusseau"
+      ],
+      "year": 2014,
+      "topic": "Systems",
+      "tags": [
+        "operating systems",
+        "virtualization",
+        "concurrency",
+        "persistence"
+      ],
+      "why": "OSTEP. Virtualization, concurrency, persistence — a free, modern OS textbook that has become the default.",
+      "links": {
+        "free": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+      }
+    },
+    {
+      "id": "modern-operating-systems",
+      "title": "Modern Operating Systems",
+      "authors": [
+        "Andrew S. Tanenbaum",
+        "Herbert Bos"
+      ],
+      "year": 1992,
+      "topic": "Systems",
+      "tags": [
+        "operating systems"
+      ],
+      "why": "Tanenbaum's comprehensive OS text, with case studies of Linux, Windows and Android.",
+      "links": {},
+      "edition": "4th ed., 2014"
+    },
+    {
+      "id": "computer-architecture-a-quantitative-approach",
+      "title": "Computer Architecture: A Quantitative Approach",
+      "authors": [
+        "John L. Hennessy",
+        "David A. Patterson"
+      ],
+      "year": 1990,
+      "topic": "Systems",
+      "tags": [
+        "architecture",
+        "pipelining",
+        "memory hierarchy"
+      ],
+      "why": "The Turing Award-winning authors' graduate text; introduced the quantitative approach to architecture design.",
+      "links": {},
+      "edition": "6th ed., 2017"
+    },
+    {
+      "id": "computer-networking-a-top-down-approach",
+      "title": "Computer Networking: A Top-Down Approach",
+      "authors": [
+        "James F. Kurose",
+        "Keith W. Ross"
+      ],
+      "year": 2000,
+      "topic": "Systems",
+      "tags": [
+        "networking",
+        "TCP/IP"
+      ],
+      "why": "The dominant networking textbook, starting at the application layer and working down.",
+      "links": {
+        "official": "https://gaia.cs.umass.edu/kurose_ross/"
+      },
+      "edition": "8th ed., 2021"
+    },
+    {
+      "id": "database-system-concepts",
+      "title": "Database System Concepts",
+      "authors": [
+        "Abraham Silberschatz",
+        "Henry F. Korth",
+        "S. Sudarshan"
+      ],
+      "year": 1986,
+      "topic": "Systems",
+      "tags": [
+        "databases",
+        "SQL",
+        "transactions"
+      ],
+      "why": "The standard database textbook: relational model, SQL, storage, indexing, query processing, transactions.",
+      "links": {
+        "official": "https://www.db-book.com/"
+      },
+      "edition": "7th ed., 2019"
+    },
+    {
+      "id": "distributed-systems",
+      "title": "Distributed Systems",
+      "authors": [
+        "Maarten van Steen",
+        "Andrew S. Tanenbaum"
+      ],
+      "year": 2002,
+      "topic": "Systems",
+      "tags": [
+        "distributed systems",
+        "consistency",
+        "fault tolerance"
+      ],
+      "why": "Principles and paradigms of distributed systems; the 4th edition is free from the authors.",
+      "links": {
+        "free": "https://www.distributed-systems.net/"
+      },
+      "edition": "4th ed., 2023"
+    },
+    {
+      "id": "advanced-programming-in-the-unix-environment",
+      "title": "Advanced Programming in the UNIX Environment",
+      "authors": [
+        "W. Richard Stevens",
+        "Stephen A. Rago"
+      ],
+      "year": 1992,
+      "topic": "Systems",
+      "tags": [
+        "UNIX",
+        "systems programming",
+        "POSIX"
+      ],
+      "why": "APUE. The definitive guide to the UNIX system-call interface; Stevens's writing is the gold standard for systems books.",
+      "links": {
+        "official": "http://www.apuebook.com/"
+      },
+      "edition": "3rd ed., 2013"
+    },
+    {
+      "id": "artificial-intelligence-a-modern-approach",
+      "title": "Artificial Intelligence: A Modern Approach",
+      "authors": [
+        "Stuart Russell",
+        "Peter Norvig"
+      ],
+      "year": 1995,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "search",
+        "planning",
+        "probabilistic reasoning"
+      ],
+      "why": "AIMA. The most widely used AI textbook in the world, spanning search, logic, planning, uncertainty, learning and robotics.",
+      "links": {
+        "official": "https://aima.cs.berkeley.edu/"
+      },
+      "edition": "4th ed., 2020"
+    },
+    {
+      "id": "reinforcement-learning-an-introduction",
+      "title": "Reinforcement Learning: An Introduction",
+      "authors": [
+        "Richard S. Sutton",
+        "Andrew G. Barto"
+      ],
+      "year": 1998,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "reinforcement learning",
+        "MDP",
+        "TD learning"
+      ],
+      "why": "The foundational RL text — bandits, MDPs, dynamic programming, Monte Carlo, TD, function approximation — free from the authors.",
+      "links": {
+        "free": "http://incompleteideas.net/book/the-book-2nd.html"
+      },
+      "edition": "2nd ed., 2018"
+    },
+    {
+      "id": "deep-learning",
+      "title": "Deep Learning",
+      "authors": [
+        "Ian Goodfellow",
+        "Yoshua Bengio",
+        "Aaron Courville"
+      ],
+      "year": 2016,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "deep learning",
+        "neural networks"
+      ],
+      "why": "The first comprehensive deep learning textbook, from linear algebra foundations to research frontiers. Free online.",
+      "links": {
+        "free": "https://www.deeplearningbook.org/"
+      }
+    },
+    {
+      "id": "pattern-recognition-and-machine-learning",
+      "title": "Pattern Recognition and Machine Learning",
+      "authors": [
+        "Christopher M. Bishop"
+      ],
+      "year": 2006,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "machine learning",
+        "Bayesian",
+        "graphical models"
+      ],
+      "why": "Bishop's Bayesian treatment of ML — kernels, graphical models, EM, variational inference — now free from Microsoft Research.",
+      "links": {
+        "free": "https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/"
+      }
+    },
+    {
+      "id": "the-elements-of-statistical-learning",
+      "title": "The Elements of Statistical Learning",
+      "authors": [
+        "Trevor Hastie",
+        "Robert Tibshirani",
+        "Jerome Friedman"
+      ],
+      "year": 2001,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "statistical learning",
+        "boosting",
+        "regularization"
+      ],
+      "why": "ESL. The statisticians' view of machine learning; the reference for regularization, trees, boosting and model assessment.",
+      "links": {
+        "free": "https://hastie.su.domains/ElemStatLearn/"
+      },
+      "edition": "2nd ed., 2009"
+    },
+    {
+      "id": "probabilistic-machine-learning-an-introduction",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": 2022,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "machine learning",
+        "probabilistic",
+        "modern"
+      ],
+      "why": "Murphy's modern, encyclopedic rewrite of Machine Learning: A Probabilistic Perspective; free online.",
+      "links": {
+        "free": "https://probml.github.io/pml-book/book1.html"
+      }
+    },
+    {
+      "id": "information-theory-inference-and-learning-algorithms",
+      "title": "Information Theory, Inference, and Learning Algorithms",
+      "authors": [
+        "David J. C. MacKay"
+      ],
+      "year": 2003,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "information theory",
+        "coding",
+        "Bayesian inference"
+      ],
+      "why": "Information theory and Bayesian inference taught together, brilliantly; free from the author.",
+      "links": {
+        "free": "https://www.inference.org.uk/mackay/itila/"
+      }
+    },
+    {
+      "id": "probabilistic-graphical-models-principles-and-techniques",
+      "title": "Probabilistic Graphical Models: Principles and Techniques",
+      "authors": [
+        "Daphne Koller",
+        "Nir Friedman"
+      ],
+      "year": 2009,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "graphical models",
+        "Bayesian networks",
+        "inference"
+      ],
+      "why": "The comprehensive reference on representation, inference and learning in Bayesian and Markov networks.",
+      "links": {
+        "official": "https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/"
+      }
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning",
+      "authors": [
+        "Tom M. Mitchell"
+      ],
+      "year": 1997,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "machine learning",
+        "classic"
+      ],
+      "why": "The classic first ML textbook — decision trees, neural nets, Bayesian learning, PAC theory — still lucid.",
+      "links": {
+        "official": "http://www.cs.cmu.edu/~tom/mlbook.html"
+      }
+    },
+    {
+      "id": "understanding-machine-learning-from-theory-to-algorithms",
+      "title": "Understanding Machine Learning: From Theory to Algorithms",
+      "authors": [
+        "Shai Shalev-Shwartz",
+        "Shai Ben-David"
+      ],
+      "year": 2014,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "learning theory",
+        "PAC",
+        "convex learning"
+      ],
+      "why": "Learning theory made accessible: PAC learning, VC dimension, SGD, kernels. Free from the authors.",
+      "links": {
+        "free": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/"
+      }
+    },
+    {
+      "id": "multiagent-systems-algorithmic-game-theoretic-and-logical-foundations",
+      "title": "Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations",
+      "authors": [
+        "Yoav Shoham",
+        "Kevin Leyton-Brown"
+      ],
+      "year": 2008,
+      "topic": "AI & Machine Learning",
+      "tags": [
+        "multi-agent",
+        "game theory",
+        "mechanism design"
+      ],
+      "why": "The standard text on multiagent systems — game theory, learning, auctions, logics of knowledge. Free from the authors.",
+      "links": {
+        "free": "http://www.masfoundations.org/"
+      }
+    },
+    {
+      "id": "robotics-modelling-planning-and-control",
+      "title": "Robotics: Modelling, Planning and Control",
+      "authors": [
+        "Bruno Siciliano",
+        "Lorenzo Sciavicco",
+        "Luigi Villani",
+        "Giuseppe Oriolo"
+      ],
+      "year": 2009,
+      "topic": "Robotics",
+      "tags": [
+        "kinematics",
+        "dynamics",
+        "control",
+        "manipulators"
+      ],
+      "why": "The most complete graduate robotics text: kinematics, differential kinematics, dynamics, motion and force control, visual servoing.",
+      "links": {
+        "official": "https://link.springer.com/book/10.1007/978-1-84628-642-1"
+      }
+    },
+    {
+      "id": "introduction-to-robotics-mechanics-and-control",
+      "title": "Introduction to Robotics: Mechanics and Control",
+      "authors": [
+        "John J. Craig"
+      ],
+      "year": 1986,
+      "topic": "Robotics",
+      "tags": [
+        "kinematics",
+        "dynamics",
+        "manipulators"
+      ],
+      "why": "Craig. The classic undergraduate introduction to manipulator kinematics, Jacobians, dynamics and control.",
+      "links": {},
+      "edition": "4th ed., 2018"
+    },
+    {
+      "id": "robot-modeling-and-control",
+      "title": "Robot Modeling and Control",
+      "authors": [
+        "Mark W. Spong",
+        "Seth Hutchinson",
+        "M. Vidyasagar"
+      ],
+      "year": 2005,
+      "topic": "Robotics",
+      "tags": [
+        "kinematics",
+        "dynamics",
+        "control"
+      ],
+      "why": "Rigorous yet approachable modeling and control of manipulators; the standard companion to Craig at the graduate level.",
+      "links": {},
+      "edition": "2nd ed., 2020"
+    },
+    {
+      "id": "modern-robotics-mechanics-planning-and-control",
+      "title": "Modern Robotics: Mechanics, Planning, and Control",
+      "authors": [
+        "Kevin M. Lynch",
+        "Frank C. Park"
+      ],
+      "year": 2017,
+      "topic": "Robotics",
+      "tags": [
+        "screw theory",
+        "kinematics",
+        "planning",
+        "control"
+      ],
+      "why": "Screw theory and product of exponentials from the start; free PDF, videos and software make it the best modern entry point.",
+      "links": {
+        "free": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+      }
+    },
+    {
+      "id": "a-mathematical-introduction-to-robotic-manipulation",
+      "title": "A Mathematical Introduction to Robotic Manipulation",
+      "authors": [
+        "Richard M. Murray",
+        "Zexiang Li",
+        "S. Shankar Sastry"
+      ],
+      "year": 1994,
+      "topic": "Robotics",
+      "tags": [
+        "screw theory",
+        "Lie groups",
+        "manipulation",
+        "nonholonomic"
+      ],
+      "why": "MLS. Lie-group kinematics, grasping and nonholonomic planning — the mathematical foundation of modern robotics, free from the authors.",
+      "links": {
+        "free": "https://www.cds.caltech.edu/~murray/mlswiki/"
+      }
+    },
+    {
+      "id": "probabilistic-robotics",
+      "title": "Probabilistic Robotics",
+      "authors": [
+        "Sebastian Thrun",
+        "Wolfram Burgard",
+        "Dieter Fox"
+      ],
+      "year": 2005,
+      "topic": "Robotics",
+      "tags": [
+        "SLAM",
+        "localization",
+        "Bayes filters",
+        "Kalman",
+        "particle filters"
+      ],
+      "why": "Bayes filters, Kalman and particle filters, localization, mapping and SLAM — the book that defined probabilistic robotics.",
+      "links": {
+        "official": "http://www.probabilistic-robotics.org/"
+      }
+    },
+    {
+      "id": "planning-algorithms",
+      "title": "Planning Algorithms",
+      "authors": [
+        "Steven M. LaValle"
+      ],
+      "year": 2006,
+      "topic": "Robotics",
+      "tags": [
+        "motion planning",
+        "sampling-based",
+        "RRT",
+        "configuration space"
+      ],
+      "why": "The encyclopedic motion-planning text, from configuration spaces through sampling-based, differential and decision-theoretic planning. Free.",
+      "links": {
+        "free": "http://lavalle.pl/planning/"
+      }
+    },
+    {
+      "id": "principles-of-robot-motion-theory-algorithms-and-implementations",
+      "title": "Principles of Robot Motion: Theory, Algorithms, and Implementations",
+      "authors": [
+        "Howie Choset",
+        "Kevin M. Lynch",
+        "Seth Hutchinson",
+        "George Kantor",
+        "Wolfram Burgard",
+        "Lydia E. Kavraki",
+        "Sebastian Thrun"
+      ],
+      "year": 2005,
+      "topic": "Robotics",
+      "tags": [
+        "motion planning",
+        "SLAM",
+        "roadmaps"
+      ],
+      "why": "Motion planning from bug algorithms to PRMs, potential fields, cell decomposition and SLAM, by the field's leading researchers.",
+      "links": {
+        "official": "https://mitpress.mit.edu/9780262033275/principles-of-robot-motion/"
+      }
+    },
+    {
+      "id": "robot-motion-planning",
+      "title": "Robot Motion Planning",
+      "authors": [
+        "Jean-Claude Latombe"
+      ],
+      "year": 1991,
+      "topic": "Robotics",
+      "tags": [
+        "motion planning",
+        "configuration space",
+        "classic"
+      ],
+      "why": "The book that unified motion planning around the configuration space; the root of the field's modern literature.",
+      "links": {
+        "official": "https://link.springer.com/book/10.1007/978-1-4615-4022-9"
+      }
+    },
+    {
+      "id": "rigid-body-dynamics-algorithms",
+      "title": "Rigid Body Dynamics Algorithms",
+      "authors": [
+        "Roy Featherstone"
+      ],
+      "year": 2008,
+      "topic": "Robotics",
+      "tags": [
+        "dynamics",
+        "spatial algebra",
+        "articulated body"
+      ],
+      "why": "Spatial vector algebra and the recursive algorithms (RNEA, CRBA, ABA) behind every modern robot dynamics engine.",
+      "links": {
+        "official": "https://link.springer.com/book/10.1007/978-1-4899-7560-7"
+      }
+    },
+    {
+      "id": "robotics-vision-and-control",
+      "title": "Robotics, Vision and Control",
+      "authors": [
+        "Peter Corke"
+      ],
+      "year": 2011,
+      "topic": "Robotics",
+      "tags": [
+        "MATLAB",
+        "Python",
+        "vision",
+        "toolbox"
+      ],
+      "why": "Fundamental algorithms explained through runnable code (MATLAB and Python toolboxes); the best hands-on robotics text.",
+      "links": {
+        "official": "https://petercorke.com/rvc/home/"
+      },
+      "edition": "3rd ed., 2023"
+    },
+    {
+      "id": "springer-handbook-of-robotics",
+      "title": "Springer Handbook of Robotics",
+      "authors": [
+        "Bruno Siciliano",
+        "Oussama Khatib"
+      ],
+      "year": 2008,
+      "topic": "Robotics",
+      "tags": [
+        "reference",
+        "handbook"
+      ],
+      "why": "The field's reference handbook — 80 chapters by the world's leading researchers across all of robotics.",
+      "links": {
+        "official": "https://link.springer.com/referencework/10.1007/978-3-319-32552-1"
+      },
+      "edition": "2nd ed., 2016"
+    },
+    {
+      "id": "introduction-to-autonomous-mobile-robots",
+      "title": "Introduction to Autonomous Mobile Robots",
+      "authors": [
+        "Roland Siegwart",
+        "Illah R. Nourbakhsh",
+        "Davide Scaramuzza"
+      ],
+      "year": 2004,
+      "topic": "Robotics",
+      "tags": [
+        "mobile robots",
+        "locomotion",
+        "perception",
+        "localization"
+      ],
+      "why": "The standard mobile-robotics textbook: locomotion, kinematics, perception, localization and planning.",
+      "links": {
+        "official": "https://mitpress.mit.edu/9780262015356/introduction-to-autonomous-mobile-robots/"
+      },
+      "edition": "2nd ed., 2011"
+    },
+    {
+      "id": "state-estimation-for-robotics",
+      "title": "State Estimation for Robotics",
+      "authors": [
+        "Timothy D. Barfoot"
+      ],
+      "year": 2017,
+      "topic": "Robotics",
+      "tags": [
+        "estimation",
+        "Lie groups",
+        "SLAM",
+        "batch estimation"
+      ],
+      "why": "Batch and recursive estimation, matrix Lie groups and pose estimation, written for roboticists; free from the author.",
+      "links": {
+        "free": "http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf"
+      }
+    },
+    {
+      "id": "underactuated-robotics",
+      "title": "Underactuated Robotics",
+      "authors": [
+        "Russ Tedrake"
+      ],
+      "year": 2009,
+      "topic": "Robotics",
+      "tags": [
+        "dynamics",
+        "optimal control",
+        "legged locomotion",
+        "trajectory optimization"
+      ],
+      "why": "MIT's course text on algorithms for walking, running, swimming, flying and manipulation; free, interactive, continually updated.",
+      "links": {
+        "free": "https://underactuated.mit.edu/"
+      }
+    },
+    {
+      "id": "robotic-manipulation-perception-planning-and-control",
+      "title": "Robotic Manipulation: Perception, Planning, and Control",
+      "authors": [
+        "Russ Tedrake"
+      ],
+      "year": 2020,
+      "topic": "Robotics",
+      "tags": [
+        "manipulation",
+        "perception",
+        "planning"
+      ],
+      "why": "MIT's manipulation course text — geometric perception, grasping, motion planning, force control — free with runnable notebooks.",
+      "links": {
+        "free": "https://manipulation.mit.edu/"
+      }
+    },
+    {
+      "id": "multiple-view-geometry-in-computer-vision",
+      "title": "Multiple View Geometry in Computer Vision",
+      "authors": [
+        "Richard Hartley",
+        "Andrew Zisserman"
+      ],
+      "year": 2000,
+      "topic": "Robotics",
+      "tags": [
+        "computer vision",
+        "geometry",
+        "SfM",
+        "camera calibration"
+      ],
+      "why": "The bible of geometric computer vision: projective geometry, camera models, epipolar geometry, reconstruction.",
+      "links": {
+        "official": "https://www.robots.ox.ac.uk/~vgg/hzbook/"
+      },
+      "edition": "2nd ed., 2004"
+    },
+    {
+      "id": "computer-vision-algorithms-and-applications",
+      "title": "Computer Vision: Algorithms and Applications",
+      "authors": [
+        "Richard Szeliski"
+      ],
+      "year": 2010,
+      "topic": "Robotics",
+      "tags": [
+        "computer vision",
+        "image processing",
+        "deep learning"
+      ],
+      "why": "The comprehensive computer vision textbook, updated for deep learning; free from the author.",
+      "links": {
+        "free": "https://szeliski.org/Book/"
+      },
+      "edition": "2nd ed., 2022"
+    },
+    {
+      "id": "dynamic-programming-and-optimal-control",
+      "title": "Dynamic Programming and Optimal Control",
+      "authors": [
+        "Dimitri P. Bertsekas"
+      ],
+      "year": 1995,
+      "topic": "Control & Optimization",
+      "tags": [
+        "dynamic programming",
+        "optimal control",
+        "MDP"
+      ],
+      "why": "The authoritative two-volume treatment of DP and optimal control, from finite-horizon problems to approximate DP.",
+      "links": {
+        "official": "http://www.athenasc.com/dpbook.html"
+      },
+      "edition": "4th ed., 2017"
+    },
+    {
+      "id": "abstract-dynamic-programming",
+      "title": "Abstract Dynamic Programming",
+      "authors": [
+        "Dimitri P. Bertsekas"
+      ],
+      "year": 2013,
+      "topic": "Control & Optimization",
+      "tags": [
+        "dynamic programming",
+        "fixed points",
+        "abstract DP"
+      ],
+      "why": "DP as the theory of monotone contractive mappings; unifies exact and approximate DP. Free PDF from the author.",
+      "links": {
+        "free": "http://www.athenasc.com/abstractdp.html"
+      },
+      "edition": "3rd ed., 2022"
+    },
+    {
+      "id": "convex-optimization",
+      "title": "Convex Optimization",
+      "authors": [
+        "Stephen Boyd",
+        "Lieven Vandenberghe"
+      ],
+      "year": 2004,
+      "topic": "Control & Optimization",
+      "tags": [
+        "convex optimization",
+        "duality",
+        "interior point"
+      ],
+      "why": "Recognizing and solving convex problems; the most influential optimization text of its era, free from the authors.",
+      "links": {
+        "free": "https://web.stanford.edu/~boyd/cvxbook/"
+      }
+    },
+    {
+      "id": "numerical-optimization",
+      "title": "Numerical Optimization",
+      "authors": [
+        "Jorge Nocedal",
+        "Stephen J. Wright"
+      ],
+      "year": 1999,
+      "topic": "Control & Optimization",
+      "tags": [
+        "nonlinear optimization",
+        "quasi-Newton",
+        "SQP",
+        "interior point"
+      ],
+      "why": "The standard reference for continuous optimization algorithms: line search, trust region, quasi-Newton, SQP, interior point.",
+      "links": {
+        "official": "https://link.springer.com/book/10.1007/978-0-387-40065-5"
+      },
+      "edition": "2nd ed., 2006"
+    },
+    {
+      "id": "feedback-systems-an-introduction-for-scientists-and-engineers",
+      "title": "Feedback Systems: An Introduction for Scientists and Engineers",
+      "authors": [
+        "Karl J. Åström",
+        "Richard M. Murray"
+      ],
+      "year": 2008,
+      "topic": "Control & Optimization",
+      "tags": [
+        "control theory",
+        "feedback",
+        "state space"
+      ],
+      "why": "A modern introduction to feedback and control across disciplines; free and maintained by the authors.",
+      "links": {
+        "free": "https://fbswiki.org/"
+      },
+      "edition": "2nd ed., 2021"
+    },
+    {
+      "id": "nonlinear-systems",
+      "title": "Nonlinear Systems",
+      "authors": [
+        "Hassan K. Khalil"
+      ],
+      "year": 1992,
+      "topic": "Control & Optimization",
+      "tags": [
+        "nonlinear control",
+        "Lyapunov",
+        "stability"
+      ],
+      "why": "The standard graduate text on nonlinear systems and Lyapunov stability theory.",
+      "links": {},
+      "edition": "3rd ed., 2002"
+    },
+    {
+      "id": "applied-nonlinear-control",
+      "title": "Applied Nonlinear Control",
+      "authors": [
+        "Jean-Jacques E. Slotine",
+        "Weiping Li"
+      ],
+      "year": 1991,
+      "topic": "Control & Optimization",
+      "tags": [
+        "nonlinear control",
+        "sliding mode",
+        "adaptive control"
+      ],
+      "why": "Lyapunov, feedback linearization, sliding mode and adaptive control, written for practicing engineers — the robotics community's favorite.",
+      "links": {}
+    },
+    {
+      "id": "optimal-control-theory-an-introduction",
+      "title": "Optimal Control Theory: An Introduction",
+      "authors": [
+        "Donald E. Kirk"
+      ],
+      "year": 1970,
+      "topic": "Control & Optimization",
+      "tags": [
+        "optimal control",
+        "calculus of variations",
+        "Pontryagin"
+      ],
+      "why": "The classic, gentle introduction to optimal control — dynamic programming, calculus of variations, Pontryagin's principle.",
+      "links": {}
+    },
+    {
+      "id": "optimal-control-and-estimation",
+      "title": "Optimal Control and Estimation",
+      "authors": [
+        "Robert F. Stengel"
+      ],
+      "year": 1986,
+      "topic": "Control & Optimization",
+      "tags": [
+        "optimal control",
+        "Kalman filter",
+        "LQG"
+      ],
+      "why": "Optimal control and stochastic estimation in one coherent Dover volume; the LQG treatment is exemplary.",
+      "links": {}
+    },
+    {
+      "id": "model-predictive-control-theory-computation-and-design",
+      "title": "Model Predictive Control: Theory, Computation, and Design",
+      "authors": [
+        "James B. Rawlings",
+        "David Q. Mayne",
+        "Moritz M. Diehl"
+      ],
+      "year": 2009,
+      "topic": "Control & Optimization",
+      "tags": [
+        "MPC",
+        "receding horizon",
+        "stability"
+      ],
+      "why": "The definitive MPC text — stability, robustness, numerical methods — free from the authors.",
+      "links": {
+        "free": "https://sites.engineering.ucsb.edu/~jbraw/mpc/"
+      },
+      "edition": "2nd ed., 2017"
+    },
+    {
+      "id": "estimation-with-applications-to-tracking-and-navigation",
+      "title": "Estimation with Applications to Tracking and Navigation",
+      "authors": [
+        "Yaakov Bar-Shalom",
+        "X. Rong Li",
+        "Thiagalingam Kirubarajan"
+      ],
+      "year": 2001,
+      "topic": "Control & Optimization",
+      "tags": [
+        "estimation",
+        "Kalman filter",
+        "tracking"
+      ],
+      "why": "The reference on state estimation for tracking: Kalman filtering, IMM, data association, navigation.",
+      "links": {}
+    },
+    {
+      "id": "mathematics-for-computer-science",
+      "title": "Mathematics for Computer Science",
+      "authors": [
+        "Eric Lehman",
+        "F. Thomson Leighton",
+        "Albert R. Meyer"
+      ],
+      "year": 2010,
+      "topic": "Mathematics",
+      "tags": [
+        "discrete math",
+        "proofs",
+        "probability"
+      ],
+      "why": "MIT 6.042's free textbook: proofs, induction, graphs, counting, probability — the discrete math every CS student needs.",
+      "links": {
+        "free": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf"
+      }
+    },
+    {
+      "id": "introduction-to-linear-algebra",
+      "title": "Introduction to Linear Algebra",
+      "authors": [
+        "Gilbert Strang"
+      ],
+      "year": 1993,
+      "topic": "Mathematics",
+      "tags": [
+        "linear algebra"
+      ],
+      "why": "Strang's famously intuitive linear algebra, paired with the MIT 18.06 lectures.",
+      "links": {
+        "official": "https://math.mit.edu/~gs/linearalgebra/"
+      },
+      "edition": "6th ed., 2023"
+    },
+    {
+      "id": "introduction-to-applied-linear-algebra-vectors-matrices-and-least-squares",
+      "title": "Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares",
+      "authors": [
+        "Stephen Boyd",
+        "Lieven Vandenberghe"
+      ],
+      "year": 2018,
+      "topic": "Mathematics",
+      "tags": [
+        "linear algebra",
+        "least squares"
+      ],
+      "why": "Linear algebra as it is used in data science and control — least squares and its applications — free from the authors.",
+      "links": {
+        "free": "https://web.stanford.edu/~boyd/vmls/"
+      }
+    },
+    {
+      "id": "introduction-to-probability",
+      "title": "Introduction to Probability",
+      "authors": [
+        "Dimitri P. Bertsekas",
+        "John N. Tsitsiklis"
+      ],
+      "year": 2002,
+      "topic": "Mathematics",
+      "tags": [
+        "probability",
+        "random processes"
+      ],
+      "why": "MIT's probability text: clear, rigorous, and built around problem solving.",
+      "links": {
+        "official": "http://www.athenasc.com/probbook.html"
+      },
+      "edition": "2nd ed., 2008"
+    }
+  ]
+}

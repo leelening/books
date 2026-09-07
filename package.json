@@ -1,0 +1,11 @@
+{
+  "name": "computer-science-books",
+  "private": true,
+  "type": "module",
+  "description": "Curated links to classic computer science and robotics books — static site + GitHub Action.",
+  "scripts": {
+    "test": "node scripts/add-book.test.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": { "node": ">=20" }
+}

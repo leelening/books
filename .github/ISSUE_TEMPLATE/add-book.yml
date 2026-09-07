@@ -1,0 +1,61 @@
+name: Add a book
+description: Suggest a classic computer science or robotics book. It is checked automatically against Open Library and added if it passes.
+title: "[Book] "
+labels: ["add-book"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Submitting this form opens an issue that a bot processes within a minute.
+        The library lists **links only** (no files) and **classics only** — widely used, long-lived books.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Probabilistic Robotics
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated
+      placeholder: Sebastian Thrun, Wolfram Burgard, Dieter Fox
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: First published (year)
+      placeholder: "2005"
+  - type: input
+    id: olkey
+    attributes:
+      label: Open Library work key
+      description: Filled automatically by the site's search. Looks like /works/OL12345W
+      placeholder: /works/OL12345W
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Algorithms & Theory
+        - Programming Languages
+        - Software Engineering
+        - Systems
+        - AI & Machine Learning
+        - Robotics
+        - Control & Optimization
+        - Mathematics
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Official or free link
+      description: Publisher page, or the author's legal free copy. Optional.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it a classic?
+      description: One or two sentences. Optional.

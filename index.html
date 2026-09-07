@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Classic Computer Science &amp; Robotics Books</title>
+  <meta name="description" content="A curated, links-only library of classic computer science and robotics books. Search it; if a book is missing, the search offers to find it online and add it.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231f6feb'/%3E%3Cpath d='M28 22h44v56H28z' fill='%23fff'/%3E%3Cpath d='M36 34h28M36 46h28M36 58h18' stroke='%231f6feb' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Classic CS &amp; Robotics Books</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#how">How it works</a>
+        <a href="https://github.com/leelening/computer_science_books" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>The books worth reading, and where to read them.</h1>
+      <p class="lede">
+        A short, opinionated list of classic computer science and robotics books.
+        <strong>No files are hosted here</strong> — every entry links to the author's legal free copy when one exists, otherwise to the publisher.
+      </p>
+
+      <form class="search" role="search" onsubmit="return false">
+        <label class="visually-hidden" for="q">Search books</label>
+        <input id="q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search by title, author, or topic — e.g. “Kalman filter”, “Knuth”, “compilers”">
+        <span class="search-hint" id="count"></span>
+      </form>
+
+      <div class="chips" id="chips" role="tablist" aria-label="Topics"></div>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+
+    <section id="online" class="online" hidden></section>
+
+    <section id="how" class="how">
+      <h2>How it works</h2>
+      <div class="how-grid">
+        <div>
+          <h3>Links only</h3>
+          <p>The repository stores a single <code>books.json</code>. Nothing copyrighted is hosted; “Read free” always points at a copy the author or publisher has made freely available.</p>
+        </div>
+        <div>
+          <h3>Classics only</h3>
+          <p>A book gets in when it has stayed in print, gone through editions, and is what practitioners actually recommend. Fashionable and new are not disqualifiers, but they are not enough.</p>
+        </div>
+        <div>
+          <h3>Missing something?</h3>
+          <p>Search for it. If it isn't in the list, the search bar looks it up on <a href="https://openlibrary.org" rel="noopener">Open Library</a>, previews whether it clears the bar, and lets you submit it. A GitHub Action re-checks and adds it automatically; borderline cases wait for a maintainer.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>Maintained by <a href="https://github.com/leelening" rel="noopener">Lening Li</a>. Repository code is MIT; book titles and links belong to their authors and publishers.</span>
+      <span><a href="https://github.com/leelening/computer_science_books/issues/new?template=add-book.yml" rel="noopener">Suggest a book</a></span>
+    </div>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <div class="cover" aria-hidden="true"></div>
+      <div class="card-body">
+        <div class="card-topic"></div>
+        <h3 class="card-title"></h3>
+        <p class="card-meta"></p>
+        <p class="card-why"></p>
+        <div class="card-links"></div>
+      </div>
+    </article>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

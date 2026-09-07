@@ -1,0 +1,48 @@
+name: Add book from issue
+
+# Triggered by the "Add a book" issue form (label `add-book`), and again when a
+# maintainer adds the `approved` label to a queued suggestion.
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+# Serialise runs so two suggestions never race on books.json.
+concurrency:
+  group: add-book
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: >-
+      (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'add-book')) ||
+      (github.event.action == 'labeled' && github.event.label.name == 'approved')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify book and update books.json
+        run: node scripts/add-book.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          if git diff --quiet -- books.json; then
+            echo "books.json unchanged"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add books.json
+          git commit -m "Add book from #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+          git pull --rebase origin main
+          git push origin HEAD:main

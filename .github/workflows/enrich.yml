@@ -1,0 +1,36 @@
+name: Refresh metadata
+
+# Adds Open Library keys, cover images and ISBNs to entries that lack them.
+# Run it once by hand after seeding; the monthly run picks up new entries.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: add-book
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/enrich.js
+      - name: Commit
+        run: |
+          if git diff --quiet -- books.json; then echo "nothing to update"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add books.json
+          git commit -m "Refresh Open Library metadata"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Browse the library
+    url: https://leelening.github.io/computer_science_books/
+    about: Search the list first — if a book isn't there, the search bar will offer to add it.

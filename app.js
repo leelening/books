@@ -180,7 +180,8 @@ function card(b, toks) {
     links.append(a);
   }
   if (L.official) links.append(link(L.official, officialLabel(L.official), "lnk ext"));
-  links.append(link(L.openlibrary || `https://openlibrary.org/search?q=${encodeURIComponent(`${b.title} ${b.authors[0] || ""}`)}`, "Open Library", "lnk ext"));
+  // Open Library is the fallback for books with no free copy and no official page.
+  if (!L.free && !L.official) links.append(link(L.openlibrary || `https://openlibrary.org/search?q=${encodeURIComponent(`${b.title} ${b.authors[0] || ""}`)}`, "Open Library", "lnk ext"));
   return node;
 }
 

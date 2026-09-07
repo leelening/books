@@ -67,10 +67,10 @@ kbd { font-family: var(--mono); }
 .brand-name { font-family: var(--serif); font-size: 18px; letter-spacing: -.01em; }
 .brand-mark { width: 20px; height: 26px; border-radius: 2px 4px 4px 2px; background: var(--accent); position: relative; box-shadow: inset 4px 0 0 rgba(0,0,0,.28); }
 .brand-mark::after { content: ""; position: absolute; left: 8px; right: 4px; top: 6px; height: 2px; background: var(--cream); box-shadow: 0 5px 0 var(--cream), 0 10px 0 var(--cream); opacity: .9; }
-.site-nav { display: flex; gap: 22px; font-size: 14px; }
+.site-nav { display: flex; align-items: center; gap: 22px; font-size: 14px; line-height: 1; }
 .site-nav a { color: var(--ink-2); text-decoration: none; white-space: nowrap; }
 .site-nav a:hover { color: var(--accent); }
-.site-nav .sponsor { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: var(--card); font-weight: 500; transition: border-color .12s, color .12s; }
+.site-nav .sponsor { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: var(--card); font-weight: 500; line-height: 1; transition: border-color .12s, color .12s; }
 .site-nav .sponsor svg { color: #bf3989; }
 .site-nav .sponsor:hover { border-color: #bf3989; color: #bf3989; }
 

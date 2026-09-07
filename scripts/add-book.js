@@ -142,7 +142,14 @@ export async function run({ event, booksPath, api, fetchImpl }) {
     return { outcome: "invalid" };
   }
 
-  const doc = await lookup(form, fetchImpl);
+  let doc;
+  try {
+    doc = await lookup(form, fetchImpl);
+  } catch (e) {
+    await api.comment(n, `⚠️ Couldn't reach Open Library (${e.message}). Leaving this open for a maintainer — re-adding the \`add-book\` label after removing it will retry.`);
+    await api.label(n, ["needs-review"]);
+    return { outcome: "error", error: e.message };
+  }
   if (!doc) {
     await api.comment(n, `Open Library has no record of **${form.title}**. The library only lists books that can be verified there, so I can't add it automatically. A maintainer can still add it by hand.`);
     await api.label(n, ["needs-review"]);

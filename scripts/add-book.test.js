@@ -116,6 +116,14 @@ const fetchFor = (doc) => async () => [doc];
   const r = await run({ event: { action: "labeled", label: { name: "approved" }, sender: { author_association: "NONE" }, issue: { number: 1, body: b2, author_association: "NONE" } }, booksPath: h.p, api: h.api, fetchImpl: fetchFor(MID) });
   assert.equal(r.outcome, "review");
 }
+// Open Library down -> queued, not crashed
+{
+  const h = harness([]);
+  const r = await run({ event: issue(body), booksPath: h.p, api: h.api, fetchImpl: async () => { throw new Error("ECONNRESET"); } });
+  assert.equal(r.outcome, "error");
+  assert.ok(h.log.labels.includes("needs-review"));
+  assert.equal(h.log.closed, null);
+}
 // reject -> closed as not planned
 {
   const h = harness([]);

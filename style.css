@@ -70,6 +70,9 @@ kbd { font-family: var(--mono); }
 .site-nav { display: flex; gap: 22px; font-size: 14px; }
 .site-nav a { color: var(--ink-2); text-decoration: none; white-space: nowrap; }
 .site-nav a:hover { color: var(--accent); }
+.site-nav .sponsor { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: var(--card); font-weight: 500; transition: border-color .12s, color .12s; }
+.site-nav .sponsor svg { color: #bf3989; }
+.site-nav .sponsor:hover { border-color: #bf3989; color: #bf3989; }
 
 /* ---------- hero ---------- */
 .hero { padding: 64px 0 40px; border-bottom: 1px solid var(--line); background:
@@ -223,8 +226,12 @@ kbd { font-family: var(--mono); }
   .wrap { padding: 0 16px; }
   .hero { padding: 40px 0 28px; }
   .hero h1 { font-size: 34px; }
-  .brand-name { font-size: 16px; }
-  .site-nav { gap: 14px; font-size: 13px; }
+  .brand-name { font-size: 14.5px; white-space: nowrap; }
+  .bar { gap: 10px; }
+  .site-nav a:first-child { display: none; }
+  .site-nav { gap: 12px; font-size: 13px; }
+  .site-nav .sponsor { padding: 4px 9px; }
+  .site-nav .sponsor svg { width: 13px; height: 13px; }
   .search input { padding: 14px 16px 14px 46px; font-size: 16px; }
   .search-kbd { display: none; }
   .book { grid-template-columns: 88px 1fr; gap: 14px; padding: 14px; }

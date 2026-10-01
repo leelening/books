@@ -1,6 +1,6 @@
 {
   "$schema": "./books.schema.json",
-  "updated": "2026-09-07",
+  "updated": "2026-10-01",
   "books": [
     {
       "id": "introduction-to-algorithms",
@@ -22,7 +22,16 @@
       "links": {
         "official": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
       },
-      "edition": "4th ed., 2022"
+      "edition": "4th ed., 2022",
+      "ol": "/works/OL4781294W",
+      "cover": 2341462,
+      "isbn": [
+        "9780070131514",
+        "0262032937",
+        "9780262031417",
+        "9780262046305",
+        "9780262270830"
+      ]
     },
     {
       "id": "the-art-of-computer-programming",
@@ -42,7 +51,16 @@
       "links": {
         "official": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html"
       },
-      "edition": "Vols. 1–4B"
+      "edition": "Vols. 1–4B",
+      "ol": "/works/OL257263W",
+      "cover": 136600,
+      "isbn": [
+        "0201853922",
+        "0201896842",
+        "9780201896855",
+        "0201896850",
+        "9780201896831"
+      ]
     },
     {
       "id": "algorithm-design",
@@ -59,7 +77,16 @@
         "network flow"
       ],
       "why": "Teaches algorithm design as a way of thinking, with unusually clear treatment of greedy, divide-and-conquer, DP and network flow.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL9166321W",
+      "cover": 8616397,
+      "isbn": [
+        "9780273752332",
+        "0321295358",
+        "0273752332",
+        "9780321295354",
+        "9780132131087"
+      ]
     },
     {
       "id": "algorithms",
@@ -79,7 +106,13 @@
       "links": {
         "official": "https://algs4.cs.princeton.edu/home/"
       },
-      "edition": "4th ed., 2011"
+      "edition": "4th ed., 2011",
+      "ol": "/works/OL16116506W",
+      "cover": 7992499,
+      "isbn": [
+        "9780321573513",
+        "032157351X"
+      ]
     },
     {
       "id": "the-algorithm-design-manual",
@@ -98,7 +131,16 @@
       "links": {
         "official": "https://www.algorist.com/"
       },
-      "edition": "3rd ed., 2020"
+      "edition": "3rd ed., 2020",
+      "ol": "/works/OL2677499W",
+      "cover": 245565,
+      "isbn": [
+        "9783030542580",
+        "9781848000698",
+        "9788184898651",
+        "9781849967204",
+        "9781848000704"
+      ]
     },
     {
       "id": "introduction-to-the-theory-of-computation",
@@ -117,7 +159,15 @@
       "links": {
         "official": "https://math.mit.edu/~sipser/book.html"
       },
-      "edition": "3rd ed., 2012"
+      "edition": "3rd ed., 2012",
+      "ol": "/works/OL19859284W",
+      "cover": 8665615,
+      "isbn": [
+        "9780357670583",
+        "113318779X",
+        "0357670582",
+        "9781133187790"
+      ]
     },
     {
       "id": "compilers-principles-techniques-and-tools",
@@ -139,7 +189,16 @@
       "links": {
         "official": "https://suif.stanford.edu/dragonbook/"
       },
-      "edition": "2nd ed., 2006"
+      "edition": "2nd ed., 2006",
+      "ol": "/works/OL3509433W",
+      "cover": 134087,
+      "isbn": [
+        "9780201100884",
+        "0321486811",
+        "0201100886",
+        "0321424018",
+        "9788320426564"
+      ]
     },
     {
       "id": "concrete-mathematics",
@@ -161,7 +220,16 @@
       "links": {
         "official": "https://www-cs-faculty.stanford.edu/~knuth/gkp.html"
       },
-      "edition": "2nd ed., 1994"
+      "edition": "2nd ed., 1994",
+      "ol": "/works/OL3951639W",
+      "cover": 135182,
+      "isbn": [
+        "0134389980",
+        "9782711748242",
+        "2711748243",
+        "9785845915887",
+        "0201142368"
+      ]
     },
     {
       "id": "computational-complexity-a-modern-approach",
@@ -202,7 +270,16 @@
       "why": "The definitive textbook on model checking and temporal logic — LTL, CTL, fairness, probabilistic systems — in one rigorous volume.",
       "links": {
         "official": "https://mitpress.mit.edu/9780262026499/principles-of-model-checking/"
-      }
+      },
+      "ol": "/works/OL17832746W",
+      "cover": 8126135,
+      "isbn": [
+        "9780262333047",
+        "9781435643277",
+        "026202649X",
+        "1435643275",
+        "9780262267564"
+      ]
     },
     {
       "id": "programming-pearls",
@@ -219,7 +296,16 @@
       ],
       "why": "Short essays on thinking clearly about programs; the bit-vector sort and back-of-the-envelope chapters are legendary.",
       "links": {},
-      "edition": "2nd ed., 1999"
+      "edition": "2nd ed., 1999",
+      "ol": "/works/OL8021453W",
+      "cover": 135673,
+      "isbn": [
+        "9780201657883",
+        "9780134498027",
+        "0134498038",
+        "9780134498034",
+        "013449802X"
+      ]
     },
     {
       "id": "structure-and-interpretation-of-computer-programs",
@@ -242,7 +328,16 @@
         "free": "https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html",
         "official": "https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/"
       },
-      "edition": "2nd ed., 1996"
+      "edition": "2nd ed., 1996",
+      "ol": "/works/OL3267304W",
+      "cover": 149338,
+      "isbn": [
+        "7111630548",
+        "0262510456",
+        "0262510367",
+        "9780262510875",
+        "0070004846"
+      ]
     },
     {
       "id": "the-c-programming-language",
@@ -259,7 +354,16 @@
       ],
       "why": "K&R. The book that defined how programming languages should be documented — terse, precise, and complete in under 300 pages.",
       "links": {},
-      "edition": "2nd ed., 1988"
+      "edition": "2nd ed., 1988",
+      "ol": "/works/OL4617640W",
+      "cover": 6684943,
+      "isbn": [
+        "9782225800689",
+        "013110859X",
+        "9780131103306",
+        "9780131158177",
+        "9780131107502"
+      ]
     },
     {
       "id": "the-cpp-programming-language",
@@ -276,7 +380,16 @@
       "links": {
         "official": "https://www.stroustrup.com/4th.html"
       },
-      "edition": "4th ed., 2013"
+      "edition": "4th ed., 2013",
+      "ol": "/works/OL53184W",
+      "cover": 136583,
+      "isbn": [
+        "83-204-2375-0",
+        "9780201700732",
+        "8320418712",
+        "0201889544",
+        "8320423678"
+      ]
     },
     {
       "id": "cpp-primer",
@@ -294,7 +407,16 @@
       ],
       "why": "The most thorough C++ tutorial; the 5th edition remains the standard way to learn the language properly from scratch.",
       "links": {},
-      "edition": "5th ed., 2012"
+      "edition": "5th ed., 2012",
+      "ol": "/works/OL1836494W",
+      "cover": 135999,
+      "isbn": [
+        "9780201721485",
+        "0201164876",
+        "9780201729559",
+        "9780321714114",
+        "9787508309897"
+      ]
     },
     {
       "id": "effective-cpp",
@@ -312,7 +434,16 @@
       "links": {
         "official": "https://www.aristeia.com/books.html"
       },
-      "edition": "3rd ed., 2005"
+      "edition": "3rd ed., 2005",
+      "ol": "/works/OL2685843W",
+      "cover": 193724,
+      "isbn": [
+        "0201924889",
+        "9780201924886",
+        "9780201563641",
+        "9780321334879",
+        "0201563649"
+      ]
     },
     {
       "id": "the-practice-of-programming",
@@ -331,7 +462,13 @@
       "why": "Simplicity, clarity, generality — Kernighan and Pike on the craft, with examples in C, C++, Java, Perl.",
       "links": {
         "official": "https://www.cs.princeton.edu/~bwk/tpop.webpage/"
-      }
+      },
+      "ol": "/works/OL15333872W",
+      "cover": 135396,
+      "isbn": [
+        "020161586X",
+        "9780201615869"
+      ]
     },
     {
       "id": "fluent-python",
@@ -350,7 +487,16 @@
       "links": {
         "official": "https://www.fluentpython.com/"
       },
-      "edition": "2nd ed., 2022"
+      "edition": "2nd ed., 2022",
+      "ol": "/works/OL19932156W",
+      "cover": 8743408,
+      "isbn": [
+        "9788575224625",
+        "9781491946251",
+        "9781492056355",
+        "1491946261",
+        "9781491946268"
+      ]
     },
     {
       "id": "code-complete",
@@ -367,7 +513,16 @@
       ],
       "why": "An encyclopedic, evidence-based handbook of software construction; the most-cited practical programming book.",
       "links": {},
-      "edition": "2nd ed., 2004"
+      "edition": "2nd ed., 2004",
+      "ol": "/works/OL2722063W",
+      "cover": 461500,
+      "isbn": [
+        "0735619670",
+        "9783860635933",
+        "0735691258",
+        "9781556154843",
+        "9780735636972"
+      ]
     },
     {
       "id": "clean-code",
@@ -383,7 +538,16 @@
         "refactoring"
       ],
       "why": "A handbook of agile software craftsmanship — naming, functions, comments, tests — that set the vocabulary for code quality.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL17618370W",
+      "cover": 8065615,
+      "isbn": [
+        "9780136083221",
+        "9782326002890",
+        "9783826655487",
+        "3826655486",
+        "0136083226"
+      ]
     },
     {
       "id": "design-patterns-elements-of-reusable-object-oriented-software",
@@ -402,7 +566,13 @@
         "GoF"
       ],
       "why": "The Gang of Four. 23 patterns that gave object-oriented designers a shared language.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL31219436W",
+      "cover": 13750918,
+      "isbn": [
+        "9780201455632",
+        "0201455633"
+      ]
     },
     {
       "id": "refactoring-improving-the-design-of-existing-code",
@@ -440,7 +610,16 @@
       "links": {
         "official": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
       },
-      "edition": "20th Anniversary ed., 2019"
+      "edition": "20th Anniversary ed., 2019",
+      "ol": "/works/OL5748544W",
+      "cover": 10143650,
+      "isbn": [
+        "0132100673",
+        "9788131722428",
+        "0135956919",
+        "9780132100670",
+        "9785342616224"
+      ]
     },
     {
       "id": "the-mythical-man-month",
@@ -456,7 +635,16 @@
       ],
       "why": "Brooks's Law, the second-system effect, No Silver Bullet — essays on software engineering that have never stopped being true.",
       "links": {},
-      "edition": "Anniversary ed., 1995"
+      "edition": "Anniversary ed., 1995",
+      "ol": "/works/OL3510570W",
+      "cover": 6915361,
+      "isbn": [
+        "9780201006506",
+        "9780132100694",
+        "9780201835953",
+        "013210069X",
+        "0132119161"
+      ]
     },
     {
       "id": "designing-data-intensive-applications",
@@ -474,7 +662,16 @@
       "why": "The big ideas behind reliable, scalable, maintainable systems: replication, partitioning, consistency, stream and batch processing.",
       "links": {
         "official": "https://dataintensive.net/"
-      }
+      },
+      "ol": "/works/OL19293745W",
+      "cover": 8434671,
+      "isbn": [
+        "1491903104",
+        "9789352135240",
+        "9781491903117",
+        "8426734677",
+        "9781449373320"
+      ]
     },
     {
       "id": "computer-systems-a-programmer-s-perspective",
@@ -495,7 +692,13 @@
       "links": {
         "official": "https://csapp.cs.cmu.edu/"
       },
-      "edition": "3rd ed., 2016"
+      "edition": "3rd ed., 2016",
+      "ol": "/works/OL19545341W",
+      "cover": 8511531,
+      "isbn": [
+        "013409266X",
+        "9780134092669"
+      ]
     },
     {
       "id": "operating-systems-three-easy-pieces",
@@ -531,7 +734,16 @@
       ],
       "why": "Tanenbaum's comprehensive OS text, with case studies of Linux, Windows and Android.",
       "links": {},
-      "edition": "4th ed., 2014"
+      "edition": "4th ed., 2014",
+      "ol": "/works/OL1970688W",
+      "cover": 9378721,
+      "isbn": [
+        "5498073062",
+        "9781292061429",
+        "9867790936",
+        "1292025778",
+        "9332575770"
+      ]
     },
     {
       "id": "computer-architecture-a-quantitative-approach",
@@ -549,7 +761,13 @@
       ],
       "why": "The Turing Award-winning authors' graduate text; introduced the quantitative approach to architecture design.",
       "links": {},
-      "edition": "6th ed., 2017"
+      "edition": "6th ed., 2017",
+      "ol": "/works/OL17914655W",
+      "cover": 8235535,
+      "isbn": [
+        "9780128119051",
+        "0128119055"
+      ]
     },
     {
       "id": "computer-networking-a-top-down-approach",
@@ -589,7 +807,16 @@
       "links": {
         "official": "https://www.db-book.com/"
       },
-      "edition": "7th ed., 2019"
+      "edition": "7th ed., 2019",
+      "ol": "/works/OL1854539W",
+      "cover": 54871,
+      "isbn": [
+        "0072283637",
+        "9780070310865",
+        "9780070447561",
+        "0070310866",
+        "0073523321"
+      ]
     },
     {
       "id": "distributed-systems",
@@ -609,7 +836,16 @@
       "links": {
         "free": "https://www.distributed-systems.net/"
       },
-      "edition": "4th ed., 2023"
+      "edition": "4th ed., 2023",
+      "ol": "/works/OL1970672W",
+      "cover": 9378755,
+      "isbn": [
+        "9781543057386",
+        "9780130888938",
+        "0132392275",
+        "9781530281756",
+        "0130888931"
+      ]
     },
     {
       "id": "advanced-programming-in-the-unix-environment",
@@ -629,7 +865,16 @@
       "links": {
         "official": "http://www.apuebook.com/"
       },
-      "edition": "3rd ed., 2013"
+      "edition": "3rd ed., 2013",
+      "ol": "/works/OL2705899W",
+      "cover": 135189,
+      "isbn": [
+        "0321637739",
+        "8178080966",
+        "032163800X",
+        "9789812358813",
+        "0201433079"
+      ]
     },
     {
       "id": "artificial-intelligence-a-modern-approach",
@@ -690,7 +935,16 @@
       "why": "The first comprehensive deep learning textbook, from linear algebra foundations to research frontiers. Free online.",
       "links": {
         "free": "https://www.deeplearningbook.org/"
-      }
+      },
+      "ol": "/works/OL17801809W",
+      "cover": 8086288,
+      "isbn": [
+        "9780262035613",
+        "0262035618",
+        "9780262337373",
+        "0262337371",
+        "0262337436"
+      ]
     },
     {
       "id": "pattern-recognition-and-machine-learning",
@@ -709,7 +963,13 @@
       "links": {
         "free": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
         "official": "https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/"
-      }
+      },
+      "ol": "/works/OL2963587W",
+      "cover": 245089,
+      "isbn": [
+        "0387310738",
+        "9780387310732"
+      ]
     },
     {
       "id": "the-elements-of-statistical-learning",
@@ -731,7 +991,16 @@
         "free": "https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf",
         "official": "https://hastie.su.domains/ElemStatLearn/"
       },
-      "edition": "2nd ed., 2009"
+      "edition": "2nd ed., 2009",
+      "ol": "/works/OL4147338W",
+      "cover": 8643962,
+      "isbn": [
+        "0387848584",
+        "9780387848846",
+        "0387216065",
+        "9780387848570",
+        "0387952845"
+      ]
     },
     {
       "id": "probabilistic-machine-learning-an-introduction",
@@ -804,7 +1073,13 @@
       "why": "The classic first ML textbook — decision trees, neural nets, Bayesian learning, PAC theory — still lucid.",
       "links": {
         "official": "http://www.cs.cmu.edu/~tom/mlbook.html"
-      }
+      },
+      "ol": "/works/OL2640191W",
+      "cover": 54770,
+      "isbn": [
+        "9780070428072",
+        "0070428077"
+      ]
     },
     {
       "id": "understanding-machine-learning-from-theory-to-algorithms",
@@ -902,7 +1177,16 @@
       ],
       "why": "Rigorous yet approachable modeling and control of manipulators; the standard companion to Craig at the graduate level.",
       "links": {},
-      "edition": "2nd ed., 2020"
+      "edition": "2nd ed., 2020",
+      "ol": "/works/OL4634630W",
+      "cover": 306117,
+      "isbn": [
+        "1119524075",
+        "1119524040",
+        "0471649902",
+        "9781119524076",
+        "9781119524045"
+      ]
     },
     {
       "id": "modern-robotics-mechanics-planning-and-control",
@@ -945,7 +1229,16 @@
       "links": {
         "free": "https://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf",
         "official": "https://www.cds.caltech.edu/~murray/mlswiki/"
-      }
+      },
+      "ol": "/works/OL3943026W",
+      "cover": 645099,
+      "isbn": [
+        "1351469797",
+        "1439847681",
+        "1351469789",
+        "9781351469791",
+        "9781138440166"
+      ]
     },
     {
       "id": "probabilistic-robotics",
@@ -967,7 +1260,16 @@
       "why": "Bayes filters, Kalman and particle filters, localization, mapping and SLAM — the book that defined probabilistic robotics.",
       "links": {
         "official": "http://www.probabilistic-robotics.org/"
-      }
+      },
+      "ol": "/works/OL3258210W",
+      "cover": 150833,
+      "isbn": [
+        "0262303809",
+        "9780262332750",
+        "9780262303804",
+        "0262201623",
+        "9780262201629"
+      ]
     },
     {
       "id": "planning-algorithms",
@@ -987,7 +1289,16 @@
       "links": {
         "free": "http://lavalle.pl/planning/book.pdf",
         "official": "http://lavalle.pl/planning/"
-      }
+      },
+      "ol": "/works/OL8332497W",
+      "cover": 359938,
+      "isbn": [
+        "0511546874",
+        "0511239343",
+        "9780511240812",
+        "9780511546877",
+        "9780511239342"
+      ]
     },
     {
       "id": "principles-of-robot-motion-theory-algorithms-and-implementations",
@@ -1029,7 +1340,16 @@
       "why": "The book that unified motion planning around the configuration space; the root of the field's modern literature.",
       "links": {
         "official": "https://link.springer.com/book/10.1007/978-1-4615-4022-9"
-      }
+      },
+      "ol": "/works/OL4429879W",
+      "cover": 558348,
+      "isbn": [
+        "9781461540236",
+        "1461540232",
+        "9780792391296",
+        "9781461540229",
+        "0792391292"
+      ]
     },
     {
       "id": "rigid-body-dynamics-algorithms",
@@ -1047,7 +1367,16 @@
       "why": "Spatial vector algebra and the recursive algorithms (RNEA, CRBA, ABA) behind every modern robot dynamics engine.",
       "links": {
         "official": "https://link.springer.com/book/10.1007/978-1-4899-7560-7"
-      }
+      },
+      "ol": "/works/OL4958046W",
+      "cover": 1192462,
+      "isbn": [
+        "0387743146",
+        "1489978682",
+        "1489975608",
+        "9781489978684",
+        "9780387743141"
+      ]
     },
     {
       "id": "robotics-vision-and-control",
@@ -1067,7 +1396,16 @@
       "links": {
         "official": "https://petercorke.com/rvc/home/"
       },
-      "edition": "3rd ed., 2023"
+      "edition": "3rd ed., 2023",
+      "ol": "/works/OL20721682W",
+      "cover": 9404703,
+      "isbn": [
+        "9783319544120",
+        "3319544136",
+        "9783031064685",
+        "3319544128",
+        "9783031072611"
+      ]
     },
     {
       "id": "springer-handbook-of-robotics",
@@ -1086,7 +1424,13 @@
       "links": {
         "official": "https://link.springer.com/referencework/10.1007/978-3-319-32552-1"
       },
-      "edition": "2nd ed., 2016"
+      "edition": "2nd ed., 2016",
+      "ol": "/works/OL16921552W",
+      "cover": 5363515,
+      "isbn": [
+        "354023957X",
+        "9783540239574"
+      ]
     },
     {
       "id": "introduction-to-autonomous-mobile-robots",
@@ -1108,7 +1452,13 @@
       "links": {
         "official": "https://mitpress.mit.edu/9780262015356/introduction-to-autonomous-mobile-robots/"
       },
-      "edition": "2nd ed., 2011"
+      "edition": "2nd ed., 2011",
+      "ol": "/works/OL15455455W",
+      "cover": 12988685,
+      "isbn": [
+        "9780262015356",
+        "0262015358"
+      ]
     },
     {
       "id": "state-estimation-for-robotics",
@@ -1127,7 +1477,15 @@
       "why": "Batch and recursive estimation, matrix Lie groups and pose estimation, written for roboticists; free from the author.",
       "links": {
         "free": "http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf"
-      }
+      },
+      "ol": "/works/OL21155868W",
+      "isbn": [
+        "9781316671528",
+        "1108515673",
+        "1009299891",
+        "9781108515672",
+        "1107159393"
+      ]
     },
     {
       "id": "underactuated-robotics",
@@ -1185,7 +1543,16 @@
       "links": {
         "official": "https://www.robots.ox.ac.uk/~vgg/hzbook/"
       },
-      "edition": "2nd ed., 2004"
+      "edition": "2nd ed., 2004",
+      "ol": "/works/OL20974092W",
+      "cover": 350219,
+      "isbn": [
+        "9781280458125",
+        "9780511186189",
+        "9780511811685",
+        "1280458127",
+        "9780511187117"
+      ]
     },
     {
       "id": "computer-vision-algorithms-and-applications",
@@ -1223,7 +1590,16 @@
       "links": {
         "official": "http://www.athenasc.com/dpbook.html"
       },
-      "edition": "4th ed., 2017"
+      "edition": "4th ed., 2017",
+      "ol": "/works/OL2021789W",
+      "cover": 2088214,
+      "isbn": [
+        "9781886529113",
+        "1886529442",
+        "1886529124",
+        "1886529132",
+        "9781886529441"
+      ]
     },
     {
       "id": "abstract-dynamic-programming",
@@ -1243,7 +1619,13 @@
         "free": "https://web.mit.edu/dimitrib/www/AbstractDP_ED3_TEXT_2021.pdf",
         "official": "http://www.athenasc.com/abstractdp.html"
       },
-      "edition": "3rd ed., 2022"
+      "edition": "3rd ed., 2022",
+      "ol": "/works/OL34323805W",
+      "cover": 13307606,
+      "isbn": [
+        "9781886529465",
+        "1886529469"
+      ]
     },
     {
       "id": "convex-optimization",
@@ -1263,7 +1645,12 @@
       "links": {
         "free": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
         "official": "https://web.stanford.edu/~boyd/cvxbook/"
-      }
+      },
+      "ol": "/works/OL13628965W",
+      "isbn": [
+        "9780521833783",
+        "0521833787"
+      ]
     },
     {
       "id": "numerical-optimization",
@@ -1284,7 +1671,16 @@
       "links": {
         "official": "https://link.springer.com/book/10.1007/978-0-387-40065-5"
       },
-      "edition": "2nd ed., 2006"
+      "edition": "2nd ed., 2006",
+      "ol": "/works/OL16972382W",
+      "cover": 245082,
+      "isbn": [
+        "0387400656",
+        "0387227423",
+        "9780387400655",
+        "9780387303031",
+        "0387303030"
+      ]
     },
     {
       "id": "feedback-systems-an-introduction-for-scientists-and-engineers",
@@ -1304,7 +1700,13 @@
       "links": {
         "free": "https://fbswiki.org/"
       },
-      "edition": "2nd ed., 2021"
+      "edition": "2nd ed., 2021",
+      "ol": "/works/OL13696497W",
+      "cover": 9521690,
+      "isbn": [
+        "9780691135762",
+        "0691135762"
+      ]
     },
     {
       "id": "nonlinear-systems",
@@ -1321,7 +1723,16 @@
       ],
       "why": "The standard graduate text on nonlinear systems and Lyapunov stability theory.",
       "links": {},
-      "edition": "3rd ed., 2002"
+      "edition": "3rd ed., 2002",
+      "ol": "/works/OL2974641W",
+      "cover": 3818688,
+      "isbn": [
+        "9780130673893",
+        "002363541X",
+        "9780132280242",
+        "9780023635410",
+        "0132280248"
+      ]
     },
     {
       "id": "applied-nonlinear-control",
@@ -1338,7 +1749,15 @@
         "adaptive control"
       ],
       "why": "Lyapunov, feedback linearization, sliding mode and adaptive control, written for practicing engineers — the robotics community's favorite.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL4465059W",
+      "cover": 82927,
+      "isbn": [
+        "0130400491",
+        "9780130408907",
+        "9780130400499",
+        "0130408905"
+      ]
     },
     {
       "id": "optimal-control-theory-an-introduction",
@@ -1394,7 +1813,16 @@
         "tracking"
       ],
       "why": "The reference on state estimation for tracking: Kalman filtering, IMM, data association, navigation.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL16965810W",
+      "cover": 304575,
+      "isbn": [
+        "128054189X",
+        "9780471221272",
+        "9781280541896",
+        "047141655X",
+        "9780471416555"
+      ]
     },
     {
       "id": "mathematics-for-computer-science",
@@ -1414,7 +1842,16 @@
       "why": "MIT 6.042's free textbook: proofs, induction, graphs, counting, probability — the discrete math every CS student needs.",
       "links": {
         "free": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf"
-      }
+      },
+      "ol": "/works/OL33370820W",
+      "cover": 13125026,
+      "isbn": [
+        "1680921215",
+        "9781680921229",
+        "9789888407064",
+        "1680921223",
+        "9888407066"
+      ]
     },
     {
       "id": "introduction-to-linear-algebra",
@@ -1431,7 +1868,16 @@
       "links": {
         "official": "https://math.mit.edu/~gs/linearalgebra/"
       },
-      "edition": "6th ed., 2023"
+      "edition": "6th ed., 2023",
+      "ol": "/works/OL3285486W",
+      "cover": 725050,
+      "isbn": [
+        "9780961408893",
+        "9781733146678",
+        "9780980232714",
+        "9781733146654",
+        "0980232775"
+      ]
     },
     {
       "id": "introduction-to-applied-linear-algebra-vectors-matrices-and-least-squares",
@@ -1469,7 +1915,13 @@
       "links": {
         "official": "http://www.athenasc.com/probbook.html"
       },
-      "edition": "2nd ed., 2008"
+      "edition": "2nd ed., 2008",
+      "ol": "/works/OL17816074W",
+      "cover": 8104980,
+      "isbn": [
+        "9781886529236",
+        "188652923X"
+      ]
     },
     {
       "id": "types-and-programming-languages",
@@ -1487,7 +1939,13 @@
       "why": "TAPL. The standard text on type systems — from the untyped lambda calculus to subtyping, polymorphism and recursive types.",
       "links": {
         "official": "https://www.cis.upenn.edu/~bcpierce/tapl/"
-      }
+      },
+      "ol": "/works/OL4078119W",
+      "cover": 150506,
+      "isbn": [
+        "0262162091",
+        "9780262162098"
+      ]
     },
     {
       "id": "effective-java",
@@ -1504,7 +1962,16 @@
       ],
       "why": "Bloch's 90 items on writing good Java; as much a book about API design and language craft as about Java itself.",
       "links": {},
-      "edition": "3rd ed., 2018"
+      "edition": "3rd ed., 2018",
+      "ol": "/works/OL6223299W",
+      "cover": 1176573,
+      "isbn": [
+        "9781533251497",
+        "3827319331",
+        "9780134685991",
+        "0134685997",
+        "0201310058"
+      ]
     },
     {
       "id": "the-unix-programming-environment",
@@ -1521,7 +1988,15 @@
         "tools"
       ],
       "why": "The UNIX philosophy in one book: small tools, pipes, filters, and building programs by composition.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL4617636W",
+      "cover": 92682,
+      "isbn": [
+        "0139376992",
+        "9780139376993",
+        "013937681X",
+        "9780139376818"
+      ]
     },
     {
       "id": "peopleware-productive-projects-and-teams",
@@ -1560,7 +2035,13 @@
       "why": "How Google runs production systems — SLOs, error budgets, toil, postmortems. Free online, and the vocabulary of modern ops.",
       "links": {
         "free": "https://sre.google/sre-book/table-of-contents/"
-      }
+      },
+      "ol": "/works/OL20028554W",
+      "cover": 9196682,
+      "isbn": [
+        "9781491929124",
+        "149192912X"
+      ]
     },
     {
       "id": "code-the-hidden-language-of-computer-hardware-and-software",
@@ -1651,7 +2132,16 @@
       ],
       "why": "Concurrent data structures from first principles: linearizability, locks, lock-free algorithms, transactional memory.",
       "links": {},
-      "edition": "2nd ed., 2020"
+      "edition": "2nd ed., 2020",
+      "ol": "/works/OL16971818W",
+      "cover": 2320484,
+      "isbn": [
+        "0080569587",
+        "012391406X",
+        "0123705916",
+        "9780124159501",
+        "9780123705914"
+      ]
     },
     {
       "id": "distributed-algorithms",
@@ -1667,7 +2157,16 @@
         "impossibility"
       ],
       "why": "The rigorous foundation of distributed computing — synchronous and asynchronous models, consensus, impossibility results.",
-      "links": {}
+      "links": {},
+      "ol": "/works/OL13538757W",
+      "cover": 8640190,
+      "isbn": [
+        "9781558603486",
+        "1558603484",
+        "9780080504704",
+        "0080504701",
+        "0123954541"
+      ]
     },
     {
       "id": "markov-decision-processes-discrete-stochastic-dynamic-programming",
@@ -1702,7 +2201,13 @@
       "why": "The first rigorous treatment of RL as approximate dynamic programming; where much of the theory of TD and function approximation began.",
       "links": {
         "official": "http://www.athenasc.com/ndpbook.html"
-      }
+      },
+      "ol": "/works/OL2021798W",
+      "cover": 933926,
+      "isbn": [
+        "9781886529106",
+        "1886529108"
+      ]
     },
     {
       "id": "algorithmic-game-theory",
@@ -1723,7 +2228,16 @@
       "why": "Where computer science met game theory: complexity of equilibria, mechanism design, price of anarchy, and more, by the field's founders.",
       "links": {
         "official": "https://www.cambridge.org/core/books/algorithmic-game-theory/0092C07CA8B724E1B1BE2238DDD66B38"
-      }
+      },
+      "ol": "/works/OL16987504W",
+      "cover": 1268815,
+      "isbn": [
+        "9780511354687",
+        "0521872820",
+        "0511355726",
+        "051135410X",
+        "9780521872829"
+      ]
     },
     {
       "id": "a-course-in-game-theory",
@@ -1742,7 +2256,16 @@
       "why": "The concise, rigorous graduate introduction to game theory; strategic, extensive and coalitional games with proofs.",
       "links": {
         "official": "https://mitpress.mit.edu/9780262650403/a-course-in-game-theory/"
-      }
+      },
+      "ol": "/works/OL3465727W",
+      "cover": 152227,
+      "isbn": [
+        "0262650401",
+        "9780585134826",
+        "0262281074",
+        "9780262150415",
+        "9780262650403"
+      ]
     },
     {
       "id": "dynamic-noncooperative-game-theory",
@@ -1760,7 +2283,16 @@
       ],
       "why": "The classic on dynamic and differential games — Nash and Stackelberg equilibria in discrete and continuous time — bridging control and game theory.",
       "links": {},
-      "edition": "2nd ed., SIAM Classics 1999"
+      "edition": "2nd ed., SIAM Classics 1999",
+      "ol": "/works/OL1986662W",
+      "cover": 698728,
+      "isbn": [
+        "9780080956664",
+        "1611971136",
+        "0120802201",
+        "9781611971132",
+        "9780120802203"
+      ]
     },
     {
       "id": "optimal-control",
@@ -1780,7 +2312,16 @@
       ],
       "why": "The standard graduate optimal-control text: LQR, tracking, Kalman filtering, dynamic programming and differential games, with worked examples.",
       "links": {},
-      "edition": "3rd ed., 2012"
+      "edition": "3rd ed., 2012",
+      "ol": "/works/OL654408W",
+      "cover": 4146423,
+      "isbn": [
+        "0471793639",
+        "9781118122723",
+        "9781118122716",
+        "1118122712",
+        "0471812404"
+      ]
     },
     {
       "id": "feedback-control-of-dynamic-systems",
@@ -1800,7 +2341,16 @@
       ],
       "why": "The undergraduate control classic — root locus, frequency response, state space — that most engineers learned feedback from.",
       "links": {},
-      "edition": "8th ed., 2019"
+      "edition": "8th ed., 2019",
+      "ol": "/works/OL2716594W",
+      "cover": 87768,
+      "isbn": [
+        "0130323934",
+        "9780131499300",
+        "9780130323934",
+        "0201508621",
+        "0131499300"
+      ]
     },
     {
       "id": "computer-vision-a-modern-approach",
@@ -1859,7 +2409,15 @@
         "free": "https://linear.axler.net/LADR4e.pdf",
         "official": "https://linear.axler.net/"
       },
-      "edition": "4th ed., 2024"
+      "edition": "4th ed., 2024",
+      "ol": "/works/OL8059441W",
+      "cover": 246056,
+      "isbn": [
+        "3319110802",
+        "9780387982588",
+        "0387982582",
+        "9783319110806"
+      ]
     },
     {
       "id": "matrix-computations",
@@ -1877,7 +2435,16 @@
       ],
       "why": "The reference for numerical linear algebra: factorizations, least squares, eigenvalue problems, and how to compute them stably.",
       "links": {},
-      "edition": "4th ed., 2013"
+      "edition": "4th ed., 2013",
+      "ol": "/works/OL3261782W",
+      "cover": 4224638,
+      "isbn": [
+        "080185413X",
+        "9780801854132",
+        "0946536058",
+        "9780801830105",
+        "0946536007"
+      ]
     },
     {
       "id": "numerical-linear-algebra",
@@ -1896,7 +2463,16 @@
       "why": "Forty short lectures that make numerical linear algebra beautiful — SVD first, then QR, eigenvalues, and iterative methods.",
       "links": {
         "official": "https://people.maths.ox.ac.uk/trefethen/text.html"
-      }
+      },
+      "ol": "/works/OL3357483W",
+      "cover": 698658,
+      "isbn": [
+        "9780898713619",
+        "0898713617",
+        "9780898719574",
+        "1611977150",
+        "0898719577"
+      ]
     },
     {
       "id": "bayesian-data-analysis",
@@ -1921,7 +2497,16 @@
         "free": "http://www.stat.columbia.edu/~gelman/book/BDA3.pdf",
         "official": "http://www.stat.columbia.edu/~gelman/book/"
       },
-      "edition": "3rd ed., 2013"
+      "edition": "3rd ed., 2013",
+      "ol": "/works/OL12630389W",
+      "cover": 7249481,
+      "isbn": [
+        "9780412039911",
+        "9781420057294",
+        "9781102154174",
+        "9781439840962",
+        "9781584883883"
+      ]
     }
   ]
 }
